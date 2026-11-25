@@ -11,6 +11,3 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
 .release-version>i.preview-dot{background:#c18a30}
-
-/* Keep both headline lines aligned across system fonts and breakpoints. */
-.hero-copy{min-width:0}.hero h1>.hero-title-main,.hero h1>.hero-title-subtitle{display:block;width:max-content;white-space:nowrap}
