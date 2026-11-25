@@ -1,6 +1,6 @@
 {
   "owner": "jeronimo701",
-  "generatedAt": "2026-11-25T12:42:56.075017+00:00",
+  "generatedAt": "2026-11-25T12:49:51.341756+00:00",
   "projects": [
     {
       "id": "NeonPlayer-Android",
@@ -61,6 +61,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [],
       "updated": "2026-11-25T10:44:25Z"
     },
@@ -128,6 +129,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [],
       "updated": "2026-10-23T17:24:16Z"
     },
@@ -166,6 +168,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [
         {
           "platform": "windows",
@@ -220,6 +223,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [
         {
           "platform": "windows",
@@ -283,6 +287,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [],
       "updated": "2026-10-22T12:15:51Z"
     },
@@ -350,6 +355,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [],
       "updated": "2026-10-22T13:18:03Z"
     },
@@ -387,6 +393,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [],
       "updated": "2026-11-23T06:22:37Z"
     },
@@ -439,6 +446,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [],
       "updated": "2026-10-22T12:16:30Z"
     },
@@ -496,6 +504,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [],
       "updated": "2026-10-22T05:49:27Z"
     },
@@ -553,6 +562,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [],
       "updated": "2026-10-22T05:50:45Z"
     },
@@ -595,6 +605,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [],
       "updated": "2026-11-23T10:37:51Z"
     },
@@ -637,6 +648,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [],
       "updated": "2026-10-28T07:39:11Z"
     },
@@ -674,6 +686,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [],
       "updated": "2026-10-28T16:38:47Z"
     },
@@ -711,6 +724,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [],
       "updated": "2026-10-28T16:38:47Z"
     },
@@ -731,6 +745,64 @@
       "url": "https://github.com/jeronimo701/DuckDeck-hbmenu",
       "latestUrl": null,
       "latest": null,
+      "preview": {
+        "tag": "v3.6.1-duckdeck-20261022",
+        "name": "DuckDeck hbmenu — v3.6.1-duckdeck-20261022",
+        "url": "https://github.com/jeronimo701/DuckDeck-hbmenu/releases/tag/v3.6.1-duckdeck-20261022",
+        "date": "2026-10-22T13:18:31Z",
+        "assets": [
+          {
+            "name": "DuckDeck-hbmenu.nro",
+            "size": 2459635,
+            "url": "https://github.com/jeronimo701/DuckDeck-hbmenu/releases/download/v3.6.1-duckdeck-20261022/DuckDeck-hbmenu.nro"
+          },
+          {
+            "name": "LIBCONFIG-SOURCE-SHA256SUMS.txt",
+            "size": 381,
+            "url": "https://github.com/jeronimo701/DuckDeck-hbmenu/releases/download/v3.6.1-duckdeck-20261022/LIBCONFIG-SOURCE-SHA256SUMS.txt"
+          },
+          {
+            "name": "LIBCONFIG-SOURCE.ru.md",
+            "size": 825,
+            "url": "https://github.com/jeronimo701/DuckDeck-hbmenu/releases/download/v3.6.1-duckdeck-20261022/LIBCONFIG-SOURCE.ru.md"
+          },
+          {
+            "name": "libconfig-v1.7.2-source.tar.gz",
+            "size": 3017891,
+            "url": "https://github.com/jeronimo701/DuckDeck-hbmenu/releases/download/v3.6.1-duckdeck-20261022/libconfig-v1.7.2-source.tar.gz"
+          },
+          {
+            "name": "LICENSE.md",
+            "size": 741,
+            "url": "https://github.com/jeronimo701/DuckDeck-hbmenu/releases/download/v3.6.1-duckdeck-20261022/LICENSE.md"
+          },
+          {
+            "name": "RELEASE-NOTES.ru.md",
+            "size": 646,
+            "url": "https://github.com/jeronimo701/DuckDeck-hbmenu/releases/download/v3.6.1-duckdeck-20261022/RELEASE-NOTES.ru.md"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 335,
+            "url": "https://github.com/jeronimo701/DuckDeck-hbmenu/releases/download/v3.6.1-duckdeck-20261022/SHA256SUMS.txt"
+          },
+          {
+            "name": "switch-libconfig-libconfig.patch",
+            "size": 1379,
+            "url": "https://github.com/jeronimo701/DuckDeck-hbmenu/releases/download/v3.6.1-duckdeck-20261022/switch-libconfig-libconfig.patch"
+          },
+          {
+            "name": "switch-libconfig-PKGBUILD",
+            "size": 1183,
+            "url": "https://github.com/jeronimo701/DuckDeck-hbmenu/releases/download/v3.6.1-duckdeck-20261022/switch-libconfig-PKGBUILD"
+          },
+          {
+            "name": "VALIDATION.json",
+            "size": 210,
+            "url": "https://github.com/jeronimo701/DuckDeck-hbmenu/releases/download/v3.6.1-duckdeck-20261022/VALIDATION.json"
+          }
+        ]
+      },
       "channels": [],
       "updated": "2026-10-28T16:37:22Z"
     },
@@ -788,6 +860,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [],
       "updated": "2026-10-21T18:22:29Z"
     },
@@ -855,6 +928,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [],
       "updated": "2026-10-21T18:31:31Z"
     },
@@ -907,6 +981,7 @@
           }
         ]
       },
+      "preview": null,
       "channels": [],
       "updated": "2026-10-21T18:00:43Z"
     },
@@ -927,6 +1002,7 @@
       "url": "https://github.com/jeronimo701/beam-windows-tool",
       "latestUrl": null,
       "latest": null,
+      "preview": null,
       "channels": [],
       "updated": "2026-10-28T16:37:17Z"
     }

@@ -42,11 +42,13 @@
     history.replaceState(null,'',next);
   }
   function projectCard(p) {
-    const latest=p.latest;
+    const latest=p.latest || p.preview;
+    const isPreview=!p.latest && Boolean(p.preview);
+    const releaseURL=p.latestUrl || p.preview?.url;
     const binaryAssets=latest?.assets.filter(a => /\.(exe|msi|apk|zip|7z|nro|user\.js)$/i.test(a.name)) || [];
-    const release = latest ? `<span class="release-version" title="${esc(latest.tag)}"><i></i>${esc(version(latest.tag))}</span><a class="release-button" href="${url(p.latestUrl)}" aria-label="Последний релиз ${esc(p.title)}">Скачать <span aria-hidden="true">↗</span></a>` : `<span class="release-version">Готового релиза пока нет</span><a class="release-button secondary" href="${url(p.url)}">Исходники ↗</a>`;
+    const release = latest ? `<span class="release-version" title="${esc(latest.tag)}"><i${isPreview?' class="preview-dot"':''}></i>${esc(version(latest.tag))}</span><a class="release-button" href="${url(releaseURL)}" aria-label="${isPreview?'Предварительный':'Последний'} релиз ${esc(p.title)}">${isPreview?'Пререлиз':'Скачать'} <span aria-hidden="true">↗</span></a>` : `<span class="release-version">Пока без готового релиза</span><a class="release-button secondary" href="${url(p.url)}">Исходники ↗</a>`;
     const channels=p.channels.length>1 ? `<div class="card-channels">${p.channels.map(c=>`<a href="${url(c.url)}" aria-label="${esc(p.title)} — выпуск для ${esc(platforms[c.platform])}">${esc(platforms[c.platform])} ↗</a>`).join('')}</div>` : '';
-    const files=binaryAssets.length ? `<details class="files-details"><summary>Файлы последнего выпуска · ${binaryAssets.length}</summary><ul class="asset-list">${binaryAssets.map(a=>`<li><a href="${url(a.url)}"><span class="asset-name">${esc(a.name)}</span><span class="asset-size">${size(a.size)} ↓</span></a></li>`).join('')}</ul></details>` : `<div class="files-details"><span class="source-link" style="margin:0;padding:12px 0;color:var(--muted)">${latest?'Описание и файлы в релизе':'Инструкции — в README'}</span></div>`;
+    const files=binaryAssets.length ? `<details class="files-details"><summary>Файлы ${isPreview?'предварительного':'последнего'} выпуска · ${binaryAssets.length}</summary><ul class="asset-list">${binaryAssets.map(a=>`<li><a href="${url(a.url)}"><span class="asset-name">${esc(a.name)}</span><span class="asset-size">${size(a.size)} ↓</span></a></li>`).join('')}</ul></details>` : `<div class="files-details"><span class="source-link" style="margin:0;padding:12px 0;color:var(--muted)">${latest?'Описание и файлы в релизе':'Инструкции — в README'}</span></div>`;
     return `<article class="project-card" data-project="${esc(p.id)}"><div class="card-top"><span class="project-icon ${esc(p.color)}">${icon(p.icon)}</span><div class="card-category">${esc(p.category)}<a class="source-link" href="${url(p.url)}" aria-label="Исходники ${esc(p.title)}">Исходники ↗</a></div></div><h3>${esc(p.title)}</h3><p class="card-description">${esc(p.description)}${p.note?`<span class="note">${esc(p.note)}</span>`:''}</p><div class="platform-badges">${p.platforms.map(x=>`<span>${esc(platforms[x] || x)}</span>`).join('')}${p.fork?'<span class="fork">⑂ Форк</span>':''}${p.archived?'<span>Архив</span>':''}</div><div class="card-release">${release}</div>${channels}${files}</article>`;
   }
   function render() {
