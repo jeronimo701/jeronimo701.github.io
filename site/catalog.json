@@ -1,0 +1,934 @@
+{
+  "owner": "jeronimo701",
+  "generatedAt": "2026-11-25T12:42:56.075017+00:00",
+  "projects": [
+    {
+      "id": "NeonPlayer-Android",
+      "title": "Neon Player · Android",
+      "description": "Neon Player для Android: Full на libmpv и завершённая Lite 0.6.0. Файлы, сетевые источники, шейдеры и гибкое управление.",
+      "platforms": [
+        "android"
+      ],
+      "category": "Медиа",
+      "icon": "play",
+      "color": "orange",
+      "order": 1,
+      "note": "Full на mpv + финальная Lite 0.6.0",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/NeonPlayer-Android",
+      "latestUrl": "https://github.com/jeronimo701/NeonPlayer-Android/releases/latest",
+      "latest": {
+        "tag": "v0.3.7",
+        "name": "Neon Player Full 0.3.7 + Lite 0.6.0",
+        "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/tag/v0.3.7",
+        "date": "2026-11-25T10:44:25Z",
+        "assets": [
+          {
+            "name": "LICENSE-GPL-3.0.txt",
+            "size": 35149,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.7/LICENSE-GPL-3.0.txt"
+          },
+          {
+            "name": "Neon-Lite-0.6.0-universal.apk",
+            "size": 2106235,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.7/Neon-Lite-0.6.0-universal.apk"
+          },
+          {
+            "name": "Neon-Player-0.3.7-arm64-v8a.apk",
+            "size": 58789919,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.7/Neon-Player-0.3.7-arm64-v8a.apk"
+          },
+          {
+            "name": "Neon-Player-0.3.7-armeabi-v7a.apk",
+            "size": 56638305,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.7/Neon-Player-0.3.7-armeabi-v7a.apk"
+          },
+          {
+            "name": "Neon-Player-0.3.7-dependency-sources.tar",
+            "size": 301434880,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.7/Neon-Player-0.3.7-dependency-sources.tar"
+          },
+          {
+            "name": "Neon-Player-0.3.7-x86_64.apk",
+            "size": 60642220,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.7/Neon-Player-0.3.7-x86_64.apk"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 588,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.7/SHA256SUMS.txt"
+          }
+        ]
+      },
+      "channels": [],
+      "updated": "2026-11-25T10:44:25Z"
+    },
+    {
+      "id": "mpv-neon",
+      "title": "Neon Player · Windows",
+      "description": "Плеер Windows на базе mpv/uosc: темы, плейлисты, настройки звука, Anime4K и TorrServer. Установщик и Portable.",
+      "platforms": [
+        "windows"
+      ],
+      "category": "Медиа",
+      "icon": "play",
+      "color": "orange",
+      "order": 2,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/mpv-neon",
+      "latestUrl": "https://github.com/jeronimo701/mpv-neon/releases/latest",
+      "latest": {
+        "tag": "v12",
+        "name": "mpv Neon v12 — публичная сборка",
+        "url": "https://github.com/jeronimo701/mpv-neon/releases/tag/v12",
+        "date": "2026-10-23T17:24:16Z",
+        "assets": [
+          {
+            "name": "LICENSE-SCOPE.md",
+            "size": 4090,
+            "url": "https://github.com/jeronimo701/mpv-neon/releases/download/v12/LICENSE-SCOPE.md"
+          },
+          {
+            "name": "LICENSE.txt",
+            "size": 10218,
+            "url": "https://github.com/jeronimo701/mpv-neon/releases/download/v12/LICENSE.txt"
+          },
+          {
+            "name": "mpv-Neon-Setup-v12-public.exe",
+            "size": 149491419,
+            "url": "https://github.com/jeronimo701/mpv-neon/releases/download/v12/mpv-Neon-Setup-v12-public.exe"
+          },
+          {
+            "name": "mpv-neon-v12-portable.zip",
+            "size": 161496292,
+            "url": "https://github.com/jeronimo701/mpv-neon/releases/download/v12/mpv-neon-v12-portable.zip"
+          },
+          {
+            "name": "PUBLIC-VALIDATION.md",
+            "size": 11670,
+            "url": "https://github.com/jeronimo701/mpv-neon/releases/download/v12/PUBLIC-VALIDATION.md"
+          },
+          {
+            "name": "SHA256SUMS-v12.txt",
+            "size": 188,
+            "url": "https://github.com/jeronimo701/mpv-neon/releases/download/v12/SHA256SUMS-v12.txt"
+          },
+          {
+            "name": "SOURCES.json",
+            "size": 5772,
+            "url": "https://github.com/jeronimo701/mpv-neon/releases/download/v12/SOURCES.json"
+          },
+          {
+            "name": "THIRD-PARTY.md",
+            "size": 3598,
+            "url": "https://github.com/jeronimo701/mpv-neon/releases/download/v12/THIRD-PARTY.md"
+          }
+        ]
+      },
+      "channels": [],
+      "updated": "2026-10-23T17:24:16Z"
+    },
+    {
+      "id": "KomandDok",
+      "title": "КомандДок",
+      "description": "КомандДок: документы, авансовые отчёты и чеки по командировкам — Windows и Android",
+      "platforms": [
+        "windows",
+        "android"
+      ],
+      "category": "Работа",
+      "icon": "document",
+      "color": "blue",
+      "order": 3,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/KomandDok",
+      "latestUrl": "https://github.com/jeronimo701/KomandDok/releases/latest",
+      "latest": {
+        "tag": "android-v1.4",
+        "name": "КомандДок для Android 1.4",
+        "url": "https://github.com/jeronimo701/KomandDok/releases/tag/android-v1.4",
+        "date": "2026-11-16T09:55:51Z",
+        "assets": [
+          {
+            "name": "KomandDok-Android.apk",
+            "size": 43470684,
+            "url": "https://github.com/jeronimo701/KomandDok/releases/download/android-v1.4/KomandDok-Android.apk"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 89,
+            "url": "https://github.com/jeronimo701/KomandDok/releases/download/android-v1.4/SHA256SUMS.txt"
+          }
+        ]
+      },
+      "channels": [
+        {
+          "platform": "windows",
+          "url": "https://github.com/jeronimo701/KomandDok/releases/tag/snapshot-2026-11-16",
+          "tag": "snapshot-2026-11-16"
+        },
+        {
+          "platform": "android",
+          "url": "https://github.com/jeronimo701/KomandDok/releases/tag/android-v1.4",
+          "tag": "android-v1.4"
+        }
+      ],
+      "updated": "2026-11-16T09:55:51Z"
+    },
+    {
+      "id": "UPScanner",
+      "title": "UPScanner",
+      "description": "Сверка оборудования по накладным и актам: сканирование кодов, контроль количества и архив. Windows и Android.",
+      "platforms": [
+        "windows",
+        "android"
+      ],
+      "category": "Работа",
+      "icon": "scan",
+      "color": "green",
+      "order": 4,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/UPScanner",
+      "latestUrl": "https://github.com/jeronimo701/UPScanner/releases/latest",
+      "latest": {
+        "tag": "release-2026-11-16",
+        "name": "UPScanner — Windows и Android 1.3 · 16.11.2026",
+        "url": "https://github.com/jeronimo701/UPScanner/releases/tag/release-2026-11-16",
+        "date": "2026-11-16T12:28:59Z",
+        "assets": [
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 191,
+            "url": "https://github.com/jeronimo701/UPScanner/releases/download/release-2026-11-16/SHA256SUMS.txt"
+          },
+          {
+            "name": "UPScanner-Android-1.3.apk",
+            "size": 13125739,
+            "url": "https://github.com/jeronimo701/UPScanner/releases/download/release-2026-11-16/UPScanner-Android-1.3.apk"
+          },
+          {
+            "name": "UPScanner-Setup-2026-11-16.exe",
+            "size": 29986478,
+            "url": "https://github.com/jeronimo701/UPScanner/releases/download/release-2026-11-16/UPScanner-Setup-2026-11-16.exe"
+          }
+        ]
+      },
+      "channels": [
+        {
+          "platform": "windows",
+          "url": "https://github.com/jeronimo701/UPScanner/releases/tag/release-2026-11-16",
+          "tag": "release-2026-11-16"
+        },
+        {
+          "platform": "android",
+          "url": "https://github.com/jeronimo701/UPScanner/releases/tag/release-2026-11-16",
+          "tag": "release-2026-11-16"
+        }
+      ],
+      "updated": "2026-11-16T12:28:59Z"
+    },
+    {
+      "id": "ConferenceDirector",
+      "title": "ConferenceDirector",
+      "description": "Пульт для конференций: презентации, медиа, таймер, очередь выступлений и вывод на отдельный экран.",
+      "platforms": [
+        "windows"
+      ],
+      "category": "Медиа",
+      "icon": "sliders",
+      "color": "purple",
+      "order": 5,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/ConferenceDirector",
+      "latestUrl": "https://github.com/jeronimo701/ConferenceDirector/releases/latest",
+      "latest": {
+        "tag": "v1.1.2",
+        "name": "ConferenceDirector 1.1.2",
+        "url": "https://github.com/jeronimo701/ConferenceDirector/releases/tag/v1.1.2",
+        "date": "2026-10-22T12:15:51Z",
+        "assets": [
+          {
+            "name": "ConferenceDirector-SHA256SUMS.txt",
+            "size": 107,
+            "url": "https://github.com/jeronimo701/ConferenceDirector/releases/download/v1.1.2/ConferenceDirector-SHA256SUMS.txt"
+          },
+          {
+            "name": "ConferenceDirectorSetup-1.1.2-clean.exe",
+            "size": 39281790,
+            "url": "https://github.com/jeronimo701/ConferenceDirector/releases/download/v1.1.2/ConferenceDirectorSetup-1.1.2-clean.exe"
+          },
+          {
+            "name": "LICENSE-SCOPE.md",
+            "size": 1192,
+            "url": "https://github.com/jeronimo701/ConferenceDirector/releases/download/v1.1.2/LICENSE-SCOPE.md"
+          },
+          {
+            "name": "LICENSE.txt",
+            "size": 10106,
+            "url": "https://github.com/jeronimo701/ConferenceDirector/releases/download/v1.1.2/LICENSE.txt"
+          },
+          {
+            "name": "THIRD-PARTY.md",
+            "size": 2061,
+            "url": "https://github.com/jeronimo701/ConferenceDirector/releases/download/v1.1.2/THIRD-PARTY.md"
+          }
+        ]
+      },
+      "channels": [],
+      "updated": "2026-10-22T12:15:51Z"
+    },
+    {
+      "id": "Boris",
+      "title": "Борис",
+      "description": "Android-пульт Roborock/Valetudo: поиск в локальной сети, команды уборки, зоны и расходники.",
+      "platforms": [
+        "android"
+      ],
+      "category": "Умный дом",
+      "icon": "robot",
+      "color": "orange",
+      "order": 6,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/Boris",
+      "latestUrl": "https://github.com/jeronimo701/Boris/releases/latest",
+      "latest": {
+        "tag": "v1.0.13",
+        "name": "Борис 1.0.13",
+        "url": "https://github.com/jeronimo701/Boris/releases/tag/v1.0.13",
+        "date": "2026-10-22T13:18:03Z",
+        "assets": [
+          {
+            "name": "APK-METADATA.txt",
+            "size": 4943,
+            "url": "https://github.com/jeronimo701/Boris/releases/download/v1.0.13/APK-METADATA.txt"
+          },
+          {
+            "name": "Boris-1.0.13-debug.apk",
+            "size": 5160929,
+            "url": "https://github.com/jeronimo701/Boris/releases/download/v1.0.13/Boris-1.0.13-debug.apk"
+          },
+          {
+            "name": "LICENSE-SCOPE.md",
+            "size": 538,
+            "url": "https://github.com/jeronimo701/Boris/releases/download/v1.0.13/LICENSE-SCOPE.md"
+          },
+          {
+            "name": "LICENSE.txt",
+            "size": 10106,
+            "url": "https://github.com/jeronimo701/Boris/releases/download/v1.0.13/LICENSE.txt"
+          },
+          {
+            "name": "RELEASE-NOTES.ru.md",
+            "size": 756,
+            "url": "https://github.com/jeronimo701/Boris/releases/download/v1.0.13/RELEASE-NOTES.ru.md"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 589,
+            "url": "https://github.com/jeronimo701/Boris/releases/download/v1.0.13/SHA256SUMS.txt"
+          },
+          {
+            "name": "THIRD-PARTY.md",
+            "size": 625,
+            "url": "https://github.com/jeronimo701/Boris/releases/download/v1.0.13/THIRD-PARTY.md"
+          },
+          {
+            "name": "VALIDATION.json",
+            "size": 217,
+            "url": "https://github.com/jeronimo701/Boris/releases/download/v1.0.13/VALIDATION.json"
+          }
+        ]
+      },
+      "channels": [],
+      "updated": "2026-10-22T13:18:03Z"
+    },
+    {
+      "id": "AcronisImageTool",
+      "title": "Acronis Image Tool",
+      "description": "Каталог TIB/TIBX: поиск образов по оборудованию и ОС, источники SMB/FTP/HTTPS и копирование на флешку. Windows x64.",
+      "platforms": [
+        "windows"
+      ],
+      "category": "Утилиты",
+      "icon": "drive",
+      "color": "blue",
+      "order": 7,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/AcronisImageTool",
+      "latestUrl": "https://github.com/jeronimo701/AcronisImageTool/releases/latest",
+      "latest": {
+        "tag": "release-2026-11-23",
+        "name": "Acronis Image Tool — Windows x64 · 23.11.2026",
+        "url": "https://github.com/jeronimo701/AcronisImageTool/releases/tag/release-2026-11-23",
+        "date": "2026-11-23T06:22:37Z",
+        "assets": [
+          {
+            "name": "AcronisImageTool-Setup-2026-11-23.exe",
+            "size": 53583345,
+            "url": "https://github.com/jeronimo701/AcronisImageTool/releases/download/release-2026-11-23/AcronisImageTool-Setup-2026-11-23.exe"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 105,
+            "url": "https://github.com/jeronimo701/AcronisImageTool/releases/download/release-2026-11-23/SHA256SUMS.txt"
+          }
+        ]
+      },
+      "channels": [],
+      "updated": "2026-11-23T06:22:37Z"
+    },
+    {
+      "id": "AndroidArtifactsCleaner",
+      "title": "Android Artifacts Cleaner",
+      "description": "Windows-утилита для поиска Android-артефактов на дисках и удаления выбранных файлов и папок.",
+      "platforms": [
+        "windows"
+      ],
+      "category": "Утилиты",
+      "icon": "clean",
+      "color": "green",
+      "order": 8,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/AndroidArtifactsCleaner",
+      "latestUrl": "https://github.com/jeronimo701/AndroidArtifactsCleaner/releases/latest",
+      "latest": {
+        "tag": "snapshot-2026-10-22",
+        "name": "Android Artifacts Cleaner Снимок 22.10.2026",
+        "url": "https://github.com/jeronimo701/AndroidArtifactsCleaner/releases/tag/snapshot-2026-10-22",
+        "date": "2026-10-22T12:16:30Z",
+        "assets": [
+          {
+            "name": "AndroidArtifactsCleaner-SHA256SUMS.txt",
+            "size": 95,
+            "url": "https://github.com/jeronimo701/AndroidArtifactsCleaner/releases/download/snapshot-2026-10-22/AndroidArtifactsCleaner-SHA256SUMS.txt"
+          },
+          {
+            "name": "AndroidArtifactsCleaner.exe",
+            "size": 44233157,
+            "url": "https://github.com/jeronimo701/AndroidArtifactsCleaner/releases/download/snapshot-2026-10-22/AndroidArtifactsCleaner.exe"
+          },
+          {
+            "name": "LICENSE-SCOPE.md",
+            "size": 1005,
+            "url": "https://github.com/jeronimo701/AndroidArtifactsCleaner/releases/download/snapshot-2026-10-22/LICENSE-SCOPE.md"
+          },
+          {
+            "name": "LICENSE.txt",
+            "size": 10106,
+            "url": "https://github.com/jeronimo701/AndroidArtifactsCleaner/releases/download/snapshot-2026-10-22/LICENSE.txt"
+          },
+          {
+            "name": "THIRD-PARTY.md",
+            "size": 1734,
+            "url": "https://github.com/jeronimo701/AndroidArtifactsCleaner/releases/download/snapshot-2026-10-22/THIRD-PARTY.md"
+          }
+        ]
+      },
+      "channels": [],
+      "updated": "2026-10-22T12:16:30Z"
+    },
+    {
+      "id": "OkdeskAndroid",
+      "title": "Okdesk Mobile",
+      "description": "Android-клиент Okdesk и каталогов POScenter: мобильные заявки, поиск, файлы и локальные помощники.",
+      "platforms": [
+        "android"
+      ],
+      "category": "Работа",
+      "icon": "phone",
+      "color": "blue",
+      "order": 9,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/OkdeskAndroid",
+      "latestUrl": "https://github.com/jeronimo701/OkdeskAndroid/releases/latest",
+      "latest": {
+        "tag": "v0.2.34",
+        "name": "Okdesk Mobile 0.2.34",
+        "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/tag/v0.2.34",
+        "date": "2026-10-22T05:49:27Z",
+        "assets": [
+          {
+            "name": "LICENSE-SCOPE.md",
+            "size": 1112,
+            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.34/LICENSE-SCOPE.md"
+          },
+          {
+            "name": "LICENSE.txt",
+            "size": 10106,
+            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.34/LICENSE.txt"
+          },
+          {
+            "name": "OkdeskMobile-0.2.34-debug.apk",
+            "size": 3449414,
+            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.34/OkdeskMobile-0.2.34-debug.apk"
+          },
+          {
+            "name": "PUBLISHING.ru.md",
+            "size": 3530,
+            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.34/PUBLISHING.ru.md"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 97,
+            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.34/SHA256SUMS.txt"
+          },
+          {
+            "name": "THIRD-PARTY.md",
+            "size": 1444,
+            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.34/THIRD-PARTY.md"
+          }
+        ]
+      },
+      "channels": [],
+      "updated": "2026-10-22T05:49:27Z"
+    },
+    {
+      "id": "OkdeskAssistant",
+      "title": "Okdesk Assistant",
+      "description": "Android-помощник для Okdesk: быстрые ответы, сценарии и смена статуса через Accessibility.",
+      "platforms": [
+        "android"
+      ],
+      "category": "Работа",
+      "icon": "spark",
+      "color": "purple",
+      "order": 10,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/OkdeskAssistant",
+      "latestUrl": "https://github.com/jeronimo701/OkdeskAssistant/releases/latest",
+      "latest": {
+        "tag": "v0.1.11",
+        "name": "Okdesk Assistant 0.1.11",
+        "url": "https://github.com/jeronimo701/OkdeskAssistant/releases/tag/v0.1.11",
+        "date": "2026-10-22T05:50:45Z",
+        "assets": [
+          {
+            "name": "LICENSE-SCOPE.md",
+            "size": 1112,
+            "url": "https://github.com/jeronimo701/OkdeskAssistant/releases/download/v0.1.11/LICENSE-SCOPE.md"
+          },
+          {
+            "name": "LICENSE.txt",
+            "size": 10106,
+            "url": "https://github.com/jeronimo701/OkdeskAssistant/releases/download/v0.1.11/LICENSE.txt"
+          },
+          {
+            "name": "OkdeskAssistant-0.1.11-debug.apk",
+            "size": 169886,
+            "url": "https://github.com/jeronimo701/OkdeskAssistant/releases/download/v0.1.11/OkdeskAssistant-0.1.11-debug.apk"
+          },
+          {
+            "name": "PUBLISHING.ru.md",
+            "size": 3200,
+            "url": "https://github.com/jeronimo701/OkdeskAssistant/releases/download/v0.1.11/PUBLISHING.ru.md"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 100,
+            "url": "https://github.com/jeronimo701/OkdeskAssistant/releases/download/v0.1.11/SHA256SUMS.txt"
+          },
+          {
+            "name": "THIRD-PARTY.md",
+            "size": 994,
+            "url": "https://github.com/jeronimo701/OkdeskAssistant/releases/download/v0.1.11/THIRD-PARTY.md"
+          }
+        ]
+      },
+      "channels": [],
+      "updated": "2026-10-22T05:50:45Z"
+    },
+    {
+      "id": "Okdesk-field-filler-equipment-title",
+      "title": "Okdesk · быстрые ответы",
+      "description": "Помощник Okdesk для Tampermonkey: шаблоны комментариев, быстрые ответы, поля заявок и префиксы оборудования.",
+      "platforms": [
+        "scripts"
+      ],
+      "category": "Tampermonkey",
+      "icon": "message",
+      "color": "purple",
+      "order": 11,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title",
+      "latestUrl": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title/releases/latest",
+      "latest": {
+        "tag": "v1.7.66",
+        "name": "Okdesk 1.7.66 — возврат к списку после отправки",
+        "url": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title/releases/tag/v1.7.66",
+        "date": "2026-11-23T10:37:51Z",
+        "assets": [
+          {
+            "name": "Okdesk_field_filler_equipment_title.meta.js",
+            "size": 1185,
+            "url": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title/releases/download/v1.7.66/Okdesk_field_filler_equipment_title.meta.js"
+          },
+          {
+            "name": "Okdesk_field_filler_equipment_title.user.js",
+            "size": 327655,
+            "url": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title/releases/download/v1.7.66/Okdesk_field_filler_equipment_title.user.js"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 222,
+            "url": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title/releases/download/v1.7.66/SHA256SUMS.txt"
+          }
+        ]
+      },
+      "channels": [],
+      "updated": "2026-11-23T10:37:51Z"
+    },
+    {
+      "id": "Poscenter-file-catalog-plus",
+      "title": "POScenter Files",
+      "description": "Tampermonkey для POScenter Files: рекурсивный поиск, загрузка папок, предпросмотр и ссылки. С автообновлением.",
+      "platforms": [
+        "scripts"
+      ],
+      "category": "Tampermonkey",
+      "icon": "folder",
+      "color": "blue",
+      "order": 12,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/Poscenter-file-catalog-plus",
+      "latestUrl": "https://github.com/jeronimo701/Poscenter-file-catalog-plus/releases/latest",
+      "latest": {
+        "tag": "v1.1.1",
+        "name": "POScenter Files 1.1.1",
+        "url": "https://github.com/jeronimo701/Poscenter-file-catalog-plus/releases/tag/v1.1.1",
+        "date": "2026-10-28T07:39:11Z",
+        "assets": [
+          {
+            "name": "Poscenter_file_catalog_plus.meta.js",
+            "size": 887,
+            "url": "https://github.com/jeronimo701/Poscenter-file-catalog-plus/releases/download/v1.1.1/Poscenter_file_catalog_plus.meta.js"
+          },
+          {
+            "name": "Poscenter_file_catalog_plus.user.js",
+            "size": 44742,
+            "url": "https://github.com/jeronimo701/Poscenter-file-catalog-plus/releases/download/v1.1.1/Poscenter_file_catalog_plus.user.js"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 206,
+            "url": "https://github.com/jeronimo701/Poscenter-file-catalog-plus/releases/download/v1.1.1/SHA256SUMS.txt"
+          }
+        ]
+      },
+      "channels": [],
+      "updated": "2026-10-28T07:39:11Z"
+    },
+    {
+      "id": "Optposcenter-catalog-plus",
+      "title": "optPOScenter · каталог и ЗИП",
+      "description": "Быстрый каталог optPOScenter в Tampermonkey: поиск оборудования и ЗИП, локальные позиции, заметки и фото.",
+      "platforms": [
+        "scripts"
+      ],
+      "category": "Tampermonkey",
+      "icon": "grid",
+      "color": "green",
+      "order": 13,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/Optposcenter-catalog-plus",
+      "latestUrl": "https://github.com/jeronimo701/Optposcenter-catalog-plus/releases/latest",
+      "latest": {
+        "tag": "v0.2.8",
+        "name": "optPOScenter 0.2.8 — публичные автообновления",
+        "url": "https://github.com/jeronimo701/Optposcenter-catalog-plus/releases/tag/v0.2.8",
+        "date": "2026-10-28T16:38:47Z",
+        "assets": [
+          {
+            "name": "Optposcenter_catalog_plus.meta.js",
+            "size": 1174,
+            "url": "https://github.com/jeronimo701/Optposcenter-catalog-plus/releases/download/v0.2.8/Optposcenter_catalog_plus.meta.js"
+          },
+          {
+            "name": "Optposcenter_catalog_plus.user.js",
+            "size": 84809,
+            "url": "https://github.com/jeronimo701/Optposcenter-catalog-plus/releases/download/v0.2.8/Optposcenter_catalog_plus.user.js"
+          }
+        ]
+      },
+      "channels": [],
+      "updated": "2026-10-28T16:38:47Z"
+    },
+    {
+      "id": "Kinopoisk-clean-and-redirect",
+      "title": "Кинопоиск · переход к плееру",
+      "description": "Tampermonkey для Кинопоиска: очистка UTM и кнопка перехода на выбранный домен. Настройки и автообновление.",
+      "platforms": [
+        "scripts"
+      ],
+      "category": "Tampermonkey",
+      "icon": "link",
+      "color": "orange",
+      "order": 14,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/Kinopoisk-clean-and-redirect",
+      "latestUrl": "https://github.com/jeronimo701/Kinopoisk-clean-and-redirect/releases/latest",
+      "latest": {
+        "tag": "v1.2.2",
+        "name": "Кинопоиск 1.2.2 — публичные автообновления",
+        "url": "https://github.com/jeronimo701/Kinopoisk-clean-and-redirect/releases/tag/v1.2.2",
+        "date": "2026-10-28T16:38:47Z",
+        "assets": [
+          {
+            "name": "Kinopoisk_clean_and_redirect.meta.js",
+            "size": 1095,
+            "url": "https://github.com/jeronimo701/Kinopoisk-clean-and-redirect/releases/download/v1.2.2/Kinopoisk_clean_and_redirect.meta.js"
+          },
+          {
+            "name": "Kinopoisk_clean_and_redirect.user.js",
+            "size": 8871,
+            "url": "https://github.com/jeronimo701/Kinopoisk-clean-and-redirect/releases/download/v1.2.2/Kinopoisk_clean_and_redirect.user.js"
+          }
+        ]
+      },
+      "channels": [],
+      "updated": "2026-10-28T16:38:47Z"
+    },
+    {
+      "id": "DuckDeck-hbmenu",
+      "title": "DuckDeck hbmenu",
+      "description": "Homebrew-меню Nintendo Switch с сеткой приложений, настраиваемыми столбцами и размером иконок. Форк nx-hbmenu.",
+      "platforms": [
+        "switch"
+      ],
+      "category": "Nintendo Switch",
+      "icon": "game",
+      "color": "orange",
+      "order": 15,
+      "note": "",
+      "fork": true,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/DuckDeck-hbmenu",
+      "latestUrl": null,
+      "latest": null,
+      "channels": [],
+      "updated": "2026-10-28T16:37:22Z"
+    },
+    {
+      "id": "ultra-bootscreen-manager",
+      "title": "Ultra Bootscreen Manager",
+      "description": "Смена заставок UltraNX на Nintendo Switch: предпросмотр, резервные копии, восстановление и интерфейс RU/EN.",
+      "platforms": [
+        "switch"
+      ],
+      "category": "Nintendo Switch",
+      "icon": "layers",
+      "color": "purple",
+      "order": 16,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/ultra-bootscreen-manager",
+      "latestUrl": "https://github.com/jeronimo701/ultra-bootscreen-manager/releases/latest",
+      "latest": {
+        "tag": "v1.1.1",
+        "name": "Ultra Bootscreen Manager 1.1.1",
+        "url": "https://github.com/jeronimo701/ultra-bootscreen-manager/releases/tag/v1.1.1",
+        "date": "2026-10-21T18:22:29Z",
+        "assets": [
+          {
+            "name": "libnx-LICENSE.md",
+            "size": 732,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-manager/releases/download/v1.1.1/libnx-LICENSE.md"
+          },
+          {
+            "name": "README.md",
+            "size": 8814,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-manager/releases/download/v1.1.1/README.md"
+          },
+          {
+            "name": "THIRD-PARTY.md",
+            "size": 2091,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-manager/releases/download/v1.1.1/THIRD-PARTY.md"
+          },
+          {
+            "name": "UltraBootscreenManager-1.1.1-SHA256.txt",
+            "size": 93,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-manager/releases/download/v1.1.1/UltraBootscreenManager-1.1.1-SHA256.txt"
+          },
+          {
+            "name": "UltraBootscreenManager.nro",
+            "size": 15195337,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-manager/releases/download/v1.1.1/UltraBootscreenManager.nro"
+          },
+          {
+            "name": "VALIDATION.md",
+            "size": 1912,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-manager/releases/download/v1.1.1/VALIDATION.md"
+          }
+        ]
+      },
+      "channels": [],
+      "updated": "2026-10-21T18:22:29Z"
+    },
+    {
+      "id": "ultra-bootscreen-editor",
+      "title": "Ultra Bootscreen Editor",
+      "description": "Редактор заставок UltraNX для Windows: кадрирование, текст, предпросмотр и пакетный экспорт BMP для Switch.",
+      "platforms": [
+        "windows"
+      ],
+      "category": "Nintendo Switch",
+      "icon": "image",
+      "color": "purple",
+      "order": 17,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/ultra-bootscreen-editor",
+      "latestUrl": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/latest",
+      "latest": {
+        "tag": "v1.0.0",
+        "name": "Ultra Bootscreen Editor 1.0.0",
+        "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/tag/v1.0.0",
+        "date": "2026-10-21T18:31:31Z",
+        "assets": [
+          {
+            "name": "microsoft.netcore.app.runtime.win-x64-LICENSE.TXT",
+            "size": 1139,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/microsoft.netcore.app.runtime.win-x64-LICENSE.TXT"
+          },
+          {
+            "name": "microsoft.netcore.app.runtime.win-x64-THIRD-PARTY-NOTICES.TXT",
+            "size": 78041,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/microsoft.netcore.app.runtime.win-x64-THIRD-PARTY-NOTICES.TXT"
+          },
+          {
+            "name": "README.md",
+            "size": 5606,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/README.md"
+          },
+          {
+            "name": "THIRD-PARTY.md",
+            "size": 1750,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/THIRD-PARTY.md"
+          },
+          {
+            "name": "UltraBootscreenEditor-1.0.0-SHA256.txt",
+            "size": 92,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/UltraBootscreenEditor-1.0.0-SHA256.txt"
+          },
+          {
+            "name": "UltraBootscreenEditor.exe",
+            "size": 51668721,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/UltraBootscreenEditor.exe"
+          },
+          {
+            "name": "VALIDATION.md",
+            "size": 2521,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/VALIDATION.md"
+          },
+          {
+            "name": "windowsdesktop-LICENSE.txt",
+            "size": 1137,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/windowsdesktop-LICENSE.txt"
+          }
+        ]
+      },
+      "channels": [],
+      "updated": "2026-10-21T18:31:31Z"
+    },
+    {
+      "id": "GlowSyncNext",
+      "title": "GlowSync Next",
+      "description": "Ambilight для Windows: подсветка экрана, музыка и эффекты; Skydimo, Adalight, WLED и несколько контроллеров.",
+      "platforms": [
+        "windows"
+      ],
+      "category": "Умный дом",
+      "icon": "sun",
+      "color": "green",
+      "order": 18,
+      "note": "",
+      "fork": true,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/GlowSyncNext",
+      "latestUrl": "https://github.com/jeronimo701/GlowSyncNext/releases/latest",
+      "latest": {
+        "tag": "v0.3.3",
+        "name": "GlowSync Next 0.3.3",
+        "url": "https://github.com/jeronimo701/GlowSyncNext/releases/tag/v0.3.3",
+        "date": "2026-10-21T18:00:43Z",
+        "assets": [
+          {
+            "name": "GlowSync.Next.exe",
+            "size": 35602802,
+            "url": "https://github.com/jeronimo701/GlowSyncNext/releases/download/v0.3.3/GlowSync.Next.exe"
+          },
+          {
+            "name": "GlowSyncNext-0.3.3-SHA256.txt",
+            "size": 84,
+            "url": "https://github.com/jeronimo701/GlowSyncNext/releases/download/v0.3.3/GlowSyncNext-0.3.3-SHA256.txt"
+          },
+          {
+            "name": "GUIDE.ru.md",
+            "size": 17752,
+            "url": "https://github.com/jeronimo701/GlowSyncNext/releases/download/v0.3.3/GUIDE.ru.md"
+          },
+          {
+            "name": "LICENSE",
+            "size": 1099,
+            "url": "https://github.com/jeronimo701/GlowSyncNext/releases/download/v0.3.3/LICENSE"
+          },
+          {
+            "name": "THIRD-PARTY.md",
+            "size": 1044,
+            "url": "https://github.com/jeronimo701/GlowSyncNext/releases/download/v0.3.3/THIRD-PARTY.md"
+          }
+        ]
+      },
+      "channels": [],
+      "updated": "2026-10-21T18:00:43Z"
+    },
+    {
+      "id": "beam-windows-tool",
+      "title": "Beam Windows Tool",
+      "description": "Инструменты Windows для XREAL Beam: диагностика ADB, снимки настроек, APK и пользовательские команды.",
+      "platforms": [
+        "windows"
+      ],
+      "category": "Утилиты",
+      "icon": "terminal",
+      "color": "blue",
+      "order": 19,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/beam-windows-tool",
+      "latestUrl": null,
+      "latest": null,
+      "channels": [],
+      "updated": "2026-10-28T16:37:17Z"
+    }
+  ]
+}
