@@ -101,5 +101,28 @@
   let savedTheme=null;try{savedTheme=localStorage.getItem('j701-theme');}catch{}
   setTheme(savedTheme==='dark'?'dark':'light');
   $('#theme-toggle').addEventListener('click',()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';setTheme(theme);try{localStorage.setItem('j701-theme',theme);}catch{}});
+  function alignHeroTitle() {
+    const heading=$('#hero-title');
+    const main=heading.querySelector('.hero-title-main');
+    const subtitle=heading.querySelector('.hero-title-subtitle');
+    heading.style.fontSize='';
+    subtitle.style.fontSize='';
+    // First fit the nickname to its column, then match the second line's width.
+    for(let pass=0;pass<3;pass++) {
+      const width=main.getBoundingClientRect().width;
+      if(width<=heading.clientWidth) break;
+      heading.style.fontSize=(parseFloat(getComputedStyle(heading).fontSize)*heading.clientWidth/width)+'px';
+    }
+    const target=main.getBoundingClientRect().width;
+    for(let pass=0;pass<3;pass++) {
+      const width=subtitle.getBoundingClientRect().width;
+      if(Math.abs(target-width)<0.2) break;
+      subtitle.style.fontSize=(parseFloat(getComputedStyle(subtitle).fontSize)*target/width)+'px';
+    }
+  }
+  alignHeroTitle();
+  document.fonts.ready.then(alignHeroTitle);
+  let titleResize;
+  window.addEventListener('resize',()=>{cancelAnimationFrame(titleResize);titleResize=requestAnimationFrame(alignHeroTitle);});
   load();
 })();
