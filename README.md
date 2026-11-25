@@ -18,7 +18,7 @@
 
 ## Автоматическое обновление
 
-GitHub Actions пересобирает и публикует каталог при изменении сайта, вручную через **Actions → Update catalogue and deploy Pages → Run workflow** и раз в 6 часов. Плановые запуски GitHub могут задерживаться; при отсутствии активности GitHub может отключить расписание публичного репозитория через 60 дней. Проверяйте состояние workflow, если дата на сайте перестала обновляться.
+GitHub Actions пересобирает и публикует каталог при изменении сайта, вручную через **Actions → Update catalogue and deploy Pages → Run workflow** и раз в 6 часов. [Плановые запуски GitHub могут задерживаться](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule); при отсутствии активности GitHub может отключить расписание публичного репозитория через 60 дней. Проверяйте состояние workflow, если дата на сайте перестала обновляться.
 
 Обновление получает **только публичные репозитории** через `/users/jeronimo701/repos` и их опубликованные обычные релизы. Закрытые проекты и черновики в каталог не попадают. Сам репозиторий сайта из списка исключён. Новые открытые проекты добавляются автоматически; название, категорию, платформы и порядок можно уточнить в `projects.json`.
 
@@ -48,7 +48,7 @@ python -m http.server 8080 --directory site
 | `scripts/validate.py` | Проверка каталога и локальных ресурсов |
 | `.github/workflows/pages.yml` | Обновление и публикация через Pages |
 
-В Settings → Pages выбран источник **GitHub Actions**. Workflow не имеет права менять исходники и использует `contents: read`, `pages: write`, `id-token: write`.
+В Settings → Pages выбран источник **GitHub Actions**. Workflow не имеет права менять исходники и использует `contents: read`; при публикации также `actions: read` для чтения артефакта, `pages: write` и `id-token: write`.
 
 ## Лицензия
 

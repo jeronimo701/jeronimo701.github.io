@@ -7,17 +7,12 @@ on:
     - cron: '17 */6 * * *'
 permissions:
   contents: read
-  pages: write
-  id-token: write
 concurrency:
   group: pages
   cancel-in-progress: false
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
       - name: Build public project catalogue
@@ -26,10 +21,34 @@ jobs:
         run: python3 scripts/update_catalog.py
       - name: Validate catalogue
         run: python3 scripts/validate.py
-      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Wait for the uploaded artifact to become visible
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          for attempt in 1 2 3 4 5 6; do
+            count=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" --jq '[.artifacts[] | select(.name == "github-pages")] | length')
+            if [ "$count" = "1" ]; then exit 0; fi
+            sleep 3
+          done
+          echo 'The github-pages artifact is not available yet.' >&2
+          exit 1
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
