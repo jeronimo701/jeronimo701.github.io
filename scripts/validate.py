@@ -15,6 +15,7 @@ def main():
         assert p['title'] and p['description'] and p['platforms']
         assert p['id']!='jeronimo701.github.io'
         assert all(x in ['windows','android','scripts','switch','other'] for x in p['platforms'])
+        assert all(x in ['windows','android','scripts','switch','other'] for x in p.get('collections',p['platforms']))
         safe_url(p['url'])
         if p['latest']:
             assert p['latestUrl']==p['url']+'/releases/latest'

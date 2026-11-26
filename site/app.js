@@ -54,7 +54,7 @@
   function render() {
     if (!catalogue) return;
     const q=state.query.trim().toLocaleLowerCase('ru-RU');
-    let projects=catalogue.projects.filter(p => (state.filter==='all' || p.platforms.includes(state.filter)) && [p.title,p.id,p.description,p.category,p.note,...p.platforms,...p.platforms.map(x=>platforms[x])].join(' ').toLocaleLowerCase('ru-RU').includes(q));
+    let projects=catalogue.projects.filter(p => (state.filter==='all' || (p.collections || p.platforms).includes(state.filter)) && [p.title,p.id,p.description,p.category,p.note,...p.platforms,...p.platforms.map(x=>platforms[x])].join(' ').toLocaleLowerCase('ru-RU').includes(q));
     if(state.sort==='name') projects.sort((a,b)=>a.title.localeCompare(b.title,'ru'));
     if(state.sort==='updated') projects.sort((a,b)=>(b.updated || '').localeCompare(a.updated || ''));
     $('#project-grid').innerHTML=projects.map(projectCard).join('');
@@ -63,7 +63,7 @@
     document.querySelectorAll('[data-filter]').forEach(button => {
       const filter=button.dataset.filter;const active=filter===state.filter;
       button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));
-      button.querySelector('span').textContent=filter==='all'?catalogue.projects.length:catalogue.projects.filter(p=>p.platforms.includes(filter)).length;
+      button.querySelector('span').textContent=filter==='all'?catalogue.projects.length:catalogue.projects.filter(p=>(p.collections || p.platforms).includes(filter)).length;
     });
   }
   function renderUpdates() {
@@ -99,7 +99,7 @@
   });
   function setTheme(theme){document.documentElement.dataset.theme=theme;$('#theme-toggle').setAttribute('aria-label',theme==='dark'?'Включить светлую тему':'Включить тёмную тему');$('meta[name="theme-color"]').content=theme==='dark'?'#181c18':'#f5f4ef';}
   let savedTheme=null;try{savedTheme=localStorage.getItem('j701-theme');}catch{}
-  setTheme(savedTheme==='dark'?'dark':'light');
+  setTheme(savedTheme==='light'?'light':'dark');
   $('#theme-toggle').addEventListener('click',()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';setTheme(theme);try{localStorage.setItem('j701-theme',theme);}catch{}});
   load();
 })();

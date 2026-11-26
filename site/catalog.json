@@ -1,12 +1,15 @@
 {
   "owner": "jeronimo701",
-  "generatedAt": "2026-11-25T12:49:51.341756+00:00",
+  "generatedAt": "2026-11-26T06:48:05.868861+00:00",
   "projects": [
     {
       "id": "NeonPlayer-Android",
       "title": "Neon Player · Android",
       "description": "Neon Player для Android: Full на libmpv и завершённая Lite 0.6.0. Файлы, сетевые источники, шейдеры и гибкое управление.",
       "platforms": [
+        "android"
+      ],
+      "collections": [
         "android"
       ],
       "category": "Медиа",
@@ -70,6 +73,9 @@
       "title": "Neon Player · Windows",
       "description": "Плеер Windows на базе mpv/uosc: темы, плейлисты, настройки звука, Anime4K и TorrServer. Установщик и Portable.",
       "platforms": [
+        "windows"
+      ],
+      "collections": [
         "windows"
       ],
       "category": "Медиа",
@@ -141,6 +147,10 @@
         "windows",
         "android"
       ],
+      "collections": [
+        "windows",
+        "android"
+      ],
       "category": "Работа",
       "icon": "document",
       "color": "blue",
@@ -188,6 +198,10 @@
       "title": "UPScanner",
       "description": "Сверка оборудования по накладным и актам: сканирование кодов, контроль количества и архив. Windows и Android.",
       "platforms": [
+        "windows",
+        "android"
+      ],
+      "collections": [
         "windows",
         "android"
       ],
@@ -245,6 +259,9 @@
       "platforms": [
         "windows"
       ],
+      "collections": [
+        "windows"
+      ],
       "category": "Медиа",
       "icon": "sliders",
       "color": "purple",
@@ -296,6 +313,9 @@
       "title": "Борис",
       "description": "Android-пульт Roborock/Valetudo: поиск в локальной сети, команды уборки, зоны и расходники.",
       "platforms": [
+        "android"
+      ],
+      "collections": [
         "android"
       ],
       "category": "Умный дом",
@@ -366,6 +386,9 @@
       "platforms": [
         "windows"
       ],
+      "collections": [
+        "windows"
+      ],
       "category": "Утилиты",
       "icon": "drive",
       "color": "blue",
@@ -402,6 +425,9 @@
       "title": "Android Artifacts Cleaner",
       "description": "Windows-утилита для поиска Android-артефактов на дисках и удаления выбранных файлов и папок.",
       "platforms": [
+        "windows"
+      ],
+      "collections": [
         "windows"
       ],
       "category": "Утилиты",
@@ -455,6 +481,9 @@
       "title": "Okdesk Mobile",
       "description": "Android-клиент Okdesk и каталогов POScenter: мобильные заявки, поиск, файлы и локальные помощники.",
       "platforms": [
+        "android"
+      ],
+      "collections": [
         "android"
       ],
       "category": "Работа",
@@ -515,6 +544,9 @@
       "platforms": [
         "android"
       ],
+      "collections": [
+        "android"
+      ],
       "category": "Работа",
       "icon": "spark",
       "color": "purple",
@@ -573,6 +605,9 @@
       "platforms": [
         "scripts"
       ],
+      "collections": [
+        "scripts"
+      ],
       "category": "Tampermonkey",
       "icon": "message",
       "color": "purple",
@@ -614,6 +649,9 @@
       "title": "POScenter Files",
       "description": "Tampermonkey для POScenter Files: рекурсивный поиск, загрузка папок, предпросмотр и ссылки. С автообновлением.",
       "platforms": [
+        "scripts"
+      ],
+      "collections": [
         "scripts"
       ],
       "category": "Tampermonkey",
@@ -659,6 +697,9 @@
       "platforms": [
         "scripts"
       ],
+      "collections": [
+        "scripts"
+      ],
       "category": "Tampermonkey",
       "icon": "grid",
       "color": "green",
@@ -697,6 +738,9 @@
       "platforms": [
         "scripts"
       ],
+      "collections": [
+        "scripts"
+      ],
       "category": "Tampermonkey",
       "icon": "link",
       "color": "orange",
@@ -733,6 +777,9 @@
       "title": "DuckDeck hbmenu",
       "description": "Homebrew-меню Nintendo Switch с сеткой приложений, настраиваемыми столбцами и размером иконок. Форк nx-hbmenu.",
       "platforms": [
+        "switch"
+      ],
+      "collections": [
         "switch"
       ],
       "category": "Nintendo Switch",
@@ -813,6 +860,9 @@
       "platforms": [
         "switch"
       ],
+      "collections": [
+        "switch"
+      ],
       "category": "Nintendo Switch",
       "icon": "layers",
       "color": "purple",
@@ -871,72 +921,94 @@
       "platforms": [
         "windows"
       ],
+      "collections": [
+        "windows",
+        "switch"
+      ],
       "category": "Nintendo Switch",
       "icon": "image",
       "color": "purple",
       "order": 17,
-      "note": "",
+      "note": "Работает на Windows · заставки для Switch",
       "fork": false,
       "archived": false,
       "url": "https://github.com/jeronimo701/ultra-bootscreen-editor",
       "latestUrl": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/latest",
       "latest": {
-        "tag": "v1.0.0",
-        "name": "Ultra Bootscreen Editor 1.0.0",
-        "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/tag/v1.0.0",
-        "date": "2026-10-21T18:31:31Z",
+        "tag": "v1.0.1",
+        "name": "Ultra Bootscreen Editor 1.0.1",
+        "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/tag/v1.0.1",
+        "date": "2026-11-26T05:26:08Z",
         "assets": [
+          {
+            "name": "CHANGELOG.md",
+            "size": 841,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.1/CHANGELOG.md"
+          },
+          {
+            "name": "LICENSE-SCOPE.md",
+            "size": 2581,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.1/LICENSE-SCOPE.md"
+          },
+          {
+            "name": "LICENSE.txt",
+            "size": 10218,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.1/LICENSE.txt"
+          },
           {
             "name": "microsoft.netcore.app.runtime.win-x64-LICENSE.TXT",
             "size": 1139,
-            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/microsoft.netcore.app.runtime.win-x64-LICENSE.TXT"
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.1/microsoft.netcore.app.runtime.win-x64-LICENSE.TXT"
           },
           {
             "name": "microsoft.netcore.app.runtime.win-x64-THIRD-PARTY-NOTICES.TXT",
             "size": 78041,
-            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/microsoft.netcore.app.runtime.win-x64-THIRD-PARTY-NOTICES.TXT"
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.1/microsoft.netcore.app.runtime.win-x64-THIRD-PARTY-NOTICES.TXT"
           },
           {
             "name": "README.md",
-            "size": 5606,
-            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/README.md"
+            "size": 4571,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.1/README.md"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 916,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.1/SHA256SUMS.txt"
           },
           {
             "name": "THIRD-PARTY.md",
-            "size": 1750,
-            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/THIRD-PARTY.md"
-          },
-          {
-            "name": "UltraBootscreenEditor-1.0.0-SHA256.txt",
-            "size": 92,
-            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/UltraBootscreenEditor-1.0.0-SHA256.txt"
+            "size": 2216,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.1/THIRD-PARTY.md"
           },
           {
             "name": "UltraBootscreenEditor.exe",
-            "size": 51668721,
-            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/UltraBootscreenEditor.exe"
+            "size": 51670151,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.1/UltraBootscreenEditor.exe"
           },
           {
             "name": "VALIDATION.md",
-            "size": 2521,
-            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/VALIDATION.md"
+            "size": 2395,
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.1/VALIDATION.md"
           },
           {
             "name": "windowsdesktop-LICENSE.txt",
             "size": 1137,
-            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.0/windowsdesktop-LICENSE.txt"
+            "url": "https://github.com/jeronimo701/ultra-bootscreen-editor/releases/download/v1.0.1/windowsdesktop-LICENSE.txt"
           }
         ]
       },
       "preview": null,
       "channels": [],
-      "updated": "2026-10-21T18:31:31Z"
+      "updated": "2026-11-26T05:26:08Z"
     },
     {
       "id": "GlowSyncNext",
       "title": "GlowSync Next",
       "description": "Ambilight для Windows: подсветка экрана, музыка и эффекты; Skydimo, Adalight, WLED и несколько контроллеров.",
       "platforms": [
+        "windows"
+      ],
+      "collections": [
         "windows"
       ],
       "category": "Умный дом",
@@ -990,6 +1062,9 @@
       "title": "Beam Windows Tool",
       "description": "Инструменты Windows для XREAL Beam: диагностика ADB, снимки настроек, APK и пользовательские команды.",
       "platforms": [
+        "windows"
+      ],
+      "collections": [
         "windows"
       ],
       "category": "Утилиты",

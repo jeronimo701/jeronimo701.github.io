@@ -1,21 +1,200 @@
 {
-  "mpv-neon": {"title":"Neon Player · Windows","platforms":["windows"],"icon":"play","color":"orange","category":"Медиа","order":2},
-  "NeonPlayer-Android": {"title":"Neon Player · Android","platforms":["android"],"icon":"play","color":"orange","category":"Медиа","order":1,"note":"Full на mpv + финальная Lite 0.6.0"},
-  "KomandDok": {"title":"КомандДок","platforms":["windows","android"],"icon":"document","color":"blue","category":"Работа","order":3},
-  "UPScanner": {"title":"UPScanner","platforms":["windows","android"],"icon":"scan","color":"green","category":"Работа","order":4},
-  "ConferenceDirector": {"title":"ConferenceDirector","platforms":["windows"],"icon":"sliders","color":"purple","category":"Медиа","order":5},
-  "Boris": {"title":"Борис","platforms":["android"],"icon":"robot","color":"orange","category":"Умный дом","order":6},
-  "AcronisImageTool": {"title":"Acronis Image Tool","platforms":["windows"],"icon":"drive","color":"blue","category":"Утилиты","order":7},
-  "AndroidArtifactsCleaner": {"title":"Android Artifacts Cleaner","platforms":["windows"],"icon":"clean","color":"green","category":"Утилиты","order":8},
-  "OkdeskAndroid": {"title":"Okdesk Mobile","platforms":["android"],"icon":"phone","color":"blue","category":"Работа","order":9},
-  "OkdeskAssistant": {"title":"Okdesk Assistant","platforms":["android"],"icon":"spark","color":"purple","category":"Работа","order":10},
-  "Okdesk-field-filler-equipment-title": {"title":"Okdesk · быстрые ответы","platforms":["scripts"],"icon":"message","color":"purple","category":"Tampermonkey","order":11},
-  "Poscenter-file-catalog-plus": {"title":"POScenter Files","platforms":["scripts"],"icon":"folder","color":"blue","category":"Tampermonkey","order":12},
-  "Optposcenter-catalog-plus": {"title":"optPOScenter · каталог и ЗИП","platforms":["scripts"],"icon":"grid","color":"green","category":"Tampermonkey","order":13},
-  "Kinopoisk-clean-and-redirect": {"title":"Кинопоиск · переход к плееру","platforms":["scripts"],"icon":"link","color":"orange","category":"Tampermonkey","order":14},
-  "DuckDeck-hbmenu": {"title":"DuckDeck hbmenu","platforms":["switch"],"icon":"game","color":"orange","category":"Nintendo Switch","order":15},
-  "ultra-bootscreen-manager": {"title":"Ultra Bootscreen Manager","platforms":["switch"],"icon":"layers","color":"purple","category":"Nintendo Switch","order":16},
-  "ultra-bootscreen-editor": {"title":"Ultra Bootscreen Editor","platforms":["windows"],"icon":"image","color":"purple","category":"Nintendo Switch","order":17},
-  "GlowSyncNext": {"title":"GlowSync Next","platforms":["windows"],"icon":"sun","color":"green","category":"Умный дом","order":18},
-  "beam-windows-tool": {"title":"Beam Windows Tool","platforms":["windows"],"icon":"terminal","color":"blue","category":"Утилиты","order":19}
+  "mpv-neon": {
+    "title": "Neon Player · Windows",
+    "platforms": [
+      "windows"
+    ],
+    "icon": "play",
+    "color": "orange",
+    "category": "Медиа",
+    "order": 2
+  },
+  "NeonPlayer-Android": {
+    "title": "Neon Player · Android",
+    "platforms": [
+      "android"
+    ],
+    "icon": "play",
+    "color": "orange",
+    "category": "Медиа",
+    "order": 1,
+    "note": "Full на mpv + финальная Lite 0.6.0"
+  },
+  "KomandDok": {
+    "title": "КомандДок",
+    "platforms": [
+      "windows",
+      "android"
+    ],
+    "icon": "document",
+    "color": "blue",
+    "category": "Работа",
+    "order": 3
+  },
+  "UPScanner": {
+    "title": "UPScanner",
+    "platforms": [
+      "windows",
+      "android"
+    ],
+    "icon": "scan",
+    "color": "green",
+    "category": "Работа",
+    "order": 4
+  },
+  "ConferenceDirector": {
+    "title": "ConferenceDirector",
+    "platforms": [
+      "windows"
+    ],
+    "icon": "sliders",
+    "color": "purple",
+    "category": "Медиа",
+    "order": 5
+  },
+  "Boris": {
+    "title": "Борис",
+    "platforms": [
+      "android"
+    ],
+    "icon": "robot",
+    "color": "orange",
+    "category": "Умный дом",
+    "order": 6
+  },
+  "AcronisImageTool": {
+    "title": "Acronis Image Tool",
+    "platforms": [
+      "windows"
+    ],
+    "icon": "drive",
+    "color": "blue",
+    "category": "Утилиты",
+    "order": 7
+  },
+  "AndroidArtifactsCleaner": {
+    "title": "Android Artifacts Cleaner",
+    "platforms": [
+      "windows"
+    ],
+    "icon": "clean",
+    "color": "green",
+    "category": "Утилиты",
+    "order": 8
+  },
+  "OkdeskAndroid": {
+    "title": "Okdesk Mobile",
+    "platforms": [
+      "android"
+    ],
+    "icon": "phone",
+    "color": "blue",
+    "category": "Работа",
+    "order": 9
+  },
+  "OkdeskAssistant": {
+    "title": "Okdesk Assistant",
+    "platforms": [
+      "android"
+    ],
+    "icon": "spark",
+    "color": "purple",
+    "category": "Работа",
+    "order": 10
+  },
+  "Okdesk-field-filler-equipment-title": {
+    "title": "Okdesk · быстрые ответы",
+    "platforms": [
+      "scripts"
+    ],
+    "icon": "message",
+    "color": "purple",
+    "category": "Tampermonkey",
+    "order": 11
+  },
+  "Poscenter-file-catalog-plus": {
+    "title": "POScenter Files",
+    "platforms": [
+      "scripts"
+    ],
+    "icon": "folder",
+    "color": "blue",
+    "category": "Tampermonkey",
+    "order": 12
+  },
+  "Optposcenter-catalog-plus": {
+    "title": "optPOScenter · каталог и ЗИП",
+    "platforms": [
+      "scripts"
+    ],
+    "icon": "grid",
+    "color": "green",
+    "category": "Tampermonkey",
+    "order": 13
+  },
+  "Kinopoisk-clean-and-redirect": {
+    "title": "Кинопоиск · переход к плееру",
+    "platforms": [
+      "scripts"
+    ],
+    "icon": "link",
+    "color": "orange",
+    "category": "Tampermonkey",
+    "order": 14
+  },
+  "DuckDeck-hbmenu": {
+    "title": "DuckDeck hbmenu",
+    "platforms": [
+      "switch"
+    ],
+    "icon": "game",
+    "color": "orange",
+    "category": "Nintendo Switch",
+    "order": 15
+  },
+  "ultra-bootscreen-manager": {
+    "title": "Ultra Bootscreen Manager",
+    "platforms": [
+      "switch"
+    ],
+    "icon": "layers",
+    "color": "purple",
+    "category": "Nintendo Switch",
+    "order": 16
+  },
+  "ultra-bootscreen-editor": {
+    "title": "Ultra Bootscreen Editor",
+    "platforms": [
+      "windows"
+    ],
+    "icon": "image",
+    "color": "purple",
+    "category": "Nintendo Switch",
+    "order": 17,
+    "collections": [
+      "windows",
+      "switch"
+    ],
+    "note": "Работает на Windows · заставки для Switch"
+  },
+  "GlowSyncNext": {
+    "title": "GlowSync Next",
+    "platforms": [
+      "windows"
+    ],
+    "icon": "sun",
+    "color": "green",
+    "category": "Умный дом",
+    "order": 18
+  },
+  "beam-windows-tool": {
+    "title": "Beam Windows Tool",
+    "platforms": [
+      "windows"
+    ],
+    "icon": "terminal",
+    "color": "blue",
+    "category": "Утилиты",
+    "order": 19
+  }
 }

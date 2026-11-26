@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="ru">
+<html lang="ru" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5f4ef">
+  <meta name="theme-color" content="#181c18">
   <title>Jeronimo701 — проекты и загрузки</title>
   <meta name="description" content="Приложения Jeronimo701 для Windows, Android, Nintendo Switch и скрипты Tampermonkey. Описания, исходники и последние релизы в одном месте.">
   <meta property="og:title" content="Jeronimo701 / Project Hub">
@@ -14,6 +14,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://jeronimo701.github.io/">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <script>try{const t=localStorage.getItem("j701-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t;}catch{}</script>
   <link rel="stylesheet" href="style.css">
   <script src="app.js" defer></script>
 </head>
@@ -22,7 +23,7 @@
   <header class="header wrap">
     <a href="./" class="brand" aria-label="Jeronimo701 — главная"><span class="brand-mark">J<span>/</span></span><span>JERONIMO<span class="brand-number">701</span><small>ЛИЧНАЯ КОЛЛЕКЦИЯ ПРОЕКТОВ</small></span></a>
     <nav aria-label="Основная навигация"><a href="#catalog">Каталог</a><a href="#updates">Обновления</a><a href="#about">О проектах</a></nav>
-    <div class="header-actions"><button id="theme-toggle" class="icon-button" aria-label="Включить тёмную тему" title="Сменить тему"><span id="theme-icon" aria-hidden="true">◐</span></button><a class="github-link" href="https://github.com/jeronimo701">GitHub <span aria-hidden="true">↗</span></a></div>
+    <div class="header-actions"><button id="theme-toggle" class="icon-button" aria-label="Включить светлую тему" title="Сменить тему"><span id="theme-icon" aria-hidden="true">◐</span></button><a class="github-link" href="https://github.com/jeronimo701">GitHub <span aria-hidden="true">↗</span></a></div>
   </header>
   <main>
     <section class="hero wrap" aria-labelledby="hero-title">

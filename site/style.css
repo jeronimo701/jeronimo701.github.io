@@ -11,3 +11,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
 .release-version>i.preview-dot{background:#c18a30}
+
+/* Native select popups need explicit colors on Windows. */
+select{color-scheme:inherit}select option{background-color:var(--surface);color:var(--ink)}select option:checked{background-color:var(--accent);color:var(--accent-ink)}
