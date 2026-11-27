@@ -3,6 +3,9 @@
   const $ = s => document.querySelector(s);
   const platforms = {windows:'Windows', android:'Android', scripts:'Tampermonkey', switch:'Nintendo Switch', other:'Другое'};
   const paths = {
+    wave:'<path d="M3 10v4m4-8v12m5-16v20m5-16v12m4-8v4"/>',
+    tv:'<rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/>',
+    magnet:'<path d="M4 3h5v9a3 3 0 0 0 6 0V3h5v9a8 8 0 0 1-16 0Zm0 5h5m6 0h5"/>',
     play:'<path d="m9 5 12 7-12 7Z"/><path d="M4 5v14"/>',
     document:'<path d="M14 3H6v18h13V8Zm0 0v5h5M9 12h7M9 16h5"/>',
     scan:'<path d="M8 3H3v5m13-5h5v5M3 16v5h5m8 0h5v-5M7 8v8m3-8v8m4-8v8m3-8v8"/>',
@@ -66,6 +69,59 @@
       button.querySelector('span').textContent=filter==='all'?catalogue.projects.length:catalogue.projects.filter(p=>(p.collections || p.platforms).includes(filter)).length;
     });
   }
+  let disposeFeatured=()=>{};
+  function renderFeatured() {
+    disposeFeatured();
+    const recent=catalogue.projects.filter(p=>p.latest && !p.archived).sort((a,b)=>b.latest.date.localeCompare(a.latest.date));
+    const defaults=['NeonPlayer-Android','mpv-neon','KomandDok'].map(id=>catalogue.projects.find(p=>p.id===id && p.latest)).filter(Boolean);
+    const picks=[...new Map([...recent.slice(0,5),...defaults,...recent].map(p=>[p.id,p])).values()].slice(0,8);
+    if(!picks.length) return;
+    const region=$('#featured-carousel'),track=$('#featured-track'),dots=$('#carousel-dots');
+    const previous=$('#carousel-prev'),next=$('#carousel-next'),play=$('#carousel-play');
+    track.innerHTML=picks.map((p,i)=>{
+      const separate=p.channels.length>1 && new Set(p.channels.map(c=>c.url)).size>1;
+      const downloads=separate?p.channels.map(c=>`<a href="${url(c.url)}">${esc(platforms[c.platform])} ↗</a>`).join(''):`<a href="${url(p.latestUrl)}">Скачать ${esc(version(p.latest.tag))} ↗</a>`;
+      return `<article class="feature-slide feature-slide-${esc(p.color)}" role="group" aria-roledescription="слайд" aria-label="${i+1} из ${picks.length}: ${esc(p.title)}" data-featured-project="${esc(p.id)}"><div class="feature-copy"><span class="feature-slide-kicker">${esc(p.platforms.map(x=>platforms[x]).join(' / '))} · ${esc(version(p.latest.tag))}</span><h3>${esc(p.title)}</h3><p>${esc(p.description)}</p><div class="feature-slide-actions">${downloads}<a class="feature-slide-about" href="${url(p.url)}">О проекте ↗</a></div></div><div class="feature-slide-art" aria-hidden="true"><span class="feature-art-ring"></span>${icon(p.icon)}<small>J701 / PROJECTS</small></div></article>`;
+    }).join('');
+    dots.innerHTML=picks.map((p,i)=>`<button type="button" aria-label="Показать ${esc(p.title)}" aria-controls="featured-track" data-slide="${i}"><span></span></button>`).join('');
+    const cards=[...track.children],dotButtons=[...dots.children];
+    const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+    let index=0,automatic=!reduced.matches,hovering=false,focused=false,inView=true,timer=null;
+    const removers=[];
+    function listen(target,type,callback,options){target.addEventListener(type,callback,options);removers.push(()=>target.removeEventListener(type,callback,options));}
+    function paint(){
+      cards.forEach((card,i)=>{card.inert=i!==index;card.setAttribute('aria-hidden',String(i!==index));});
+      dotButtons.forEach((button,i)=>{button.classList.toggle('active',i===index);if(i===index)button.setAttribute('aria-current','true');else button.removeAttribute('aria-current');});
+      $('#carousel-count').textContent=String(index+1).padStart(2,'0')+' / '+String(picks.length).padStart(2,'0');
+      play.textContent=automatic?'Ⅱ':'▶';play.setAttribute('aria-pressed',String(automatic));play.setAttribute('aria-label',automatic?'Приостановить автосмену':'Включить автосмену');
+      $('#carousel-status').textContent=!automatic?'Автосмена выключена':hovering||focused?'Пауза во время выбора':'Смена каждые 7 секунд · можно листать вручную';
+    }
+    function schedule(){
+      clearTimeout(timer);
+      if(automatic && !hovering && !focused && inView && document.visibilityState==='visible' && picks.length>1){
+        timer=setTimeout(()=>{go(index+1);},7000);
+      }
+    }
+    function go(value){
+      const target=(value+picks.length)%picks.length,wrap=Math.abs(target-index)>1;index=target;
+      track.scrollTo({left:cards[index].offsetLeft,behavior:reduced.matches||wrap?'auto':'smooth'});paint();schedule();
+    }
+    previous.disabled=next.disabled=play.disabled=picks.length<2;
+    previous.onclick=()=>go(index-1);next.onclick=()=>go(index+1);play.onclick=()=>{automatic=!automatic;paint();schedule();};
+    dotButtons.forEach((button,i)=>{button.onclick=()=>go(i);});
+    listen(region,'pointerenter',()=>{hovering=true;paint();schedule();});
+    listen(region,'pointerleave',()=>{hovering=false;paint();schedule();});
+    listen(region,'focusin',()=>{focused=true;paint();schedule();});
+    listen(region,'focusout',()=>{setTimeout(()=>{focused=region.matches(':focus-within');paint();schedule();},0);});
+    listen(document,'visibilitychange',schedule);
+    listen(track,'scroll',()=>{const width=cards[0].getBoundingClientRect().width;if(!width)return;const value=Math.max(0,Math.min(picks.length-1,Math.round(track.scrollLeft/width)));if(value!==index){index=value;paint();}} ,{passive:true});
+    listen(window,'resize',()=>{track.scrollTo({left:cards[index].offsetLeft,behavior:'auto'});});
+    listen(reduced,'change',()=>{if(reduced.matches)automatic=false;paint();schedule();});
+    let observer;
+    if('IntersectionObserver' in window){observer=new IntersectionObserver(entries=>{inView=entries[0].isIntersecting && entries[0].intersectionRatio>=.2; schedule();},{threshold:.2});observer.observe(region);}
+    paint();schedule();
+    disposeFeatured=()=>{clearTimeout(timer);observer?.disconnect();removers.forEach(remove=>remove());};
+  }
   function renderUpdates() {
     const projects=catalogue.projects.filter(p=>p.latest).sort((a,b)=>b.latest.date.localeCompare(a.latest.date)).slice(0,5);
     $('#updates-list').innerHTML=projects.map((p,index)=>`<a class="update-row" href="${url(p.latestUrl)}"><span class="update-index">${String(index+1).padStart(2,'0')}</span><div><h3>${esc(p.title)}</h3><p>${esc(p.platforms.map(x=>platforms[x]).join(' / '))}</p></div><span class="update-version">${esc(version(p.latest.tag))}</span><time class="update-date" datetime="${esc(p.latest.date)}">${formatDate(p.latest.date)}</time><span class="update-arrow" aria-hidden="true">↗</span></a>`).join('');
@@ -81,7 +137,7 @@
       $('#project-total').textContent=data.projects.length;
       $('#catalog-total').textContent=String(data.projects.length).padStart(2,'0');
       $('#sync-date').textContent='Данные проверены: '+formatDate(data.generatedAt)+', '+new Intl.DateTimeFormat('ru-RU',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/Moscow'}).format(new Date(data.generatedAt))+' МСК';
-      render();renderUpdates();
+      render();renderUpdates();renderFeatured();
     } catch(error) {
       $('#error-state').hidden=false;$('#result-count').textContent='Не удалось загрузить каталог';$('#sync-date').textContent='Дата проверки недоступна';
     }

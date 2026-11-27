@@ -1,6 +1,6 @@
 {
   "owner": "jeronimo701",
-  "generatedAt": "2026-11-26T06:48:05.868861+00:00",
+  "generatedAt": "2026-11-27T17:02:55.866794+00:00",
   "projects": [
     {
       "id": "NeonPlayer-Android",
@@ -16,57 +16,82 @@
       "icon": "play",
       "color": "orange",
       "order": 1,
-      "note": "Full на mpv + финальная Lite 0.6.0",
+      "note": "Full на mpv · Lite 0.6.0 завершена · Full APK: Android 9+",
       "fork": false,
       "archived": false,
       "url": "https://github.com/jeronimo701/NeonPlayer-Android",
       "latestUrl": "https://github.com/jeronimo701/NeonPlayer-Android/releases/latest",
       "latest": {
-        "tag": "v0.3.7",
-        "name": "Neon Player Full 0.3.7 + Lite 0.6.0",
-        "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/tag/v0.3.7",
-        "date": "2026-11-25T10:44:25Z",
+        "tag": "v0.3.8",
+        "name": "NeonPlayer-Android 0.3.8",
+        "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/tag/v0.3.8",
+        "date": "2026-11-27T16:43:34Z",
         "assets": [
           {
-            "name": "LICENSE-GPL-3.0.txt",
+            "name": "CHANGELOG.md",
+            "size": 13591,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.8/CHANGELOG.md"
+          },
+          {
+            "name": "LICENSE",
             "size": 35149,
-            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.7/LICENSE-GPL-3.0.txt"
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.8/LICENSE"
           },
           {
-            "name": "Neon-Lite-0.6.0-universal.apk",
-            "size": 2106235,
-            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.7/Neon-Lite-0.6.0-universal.apk"
+            "name": "NATIVE-SOURCES.json",
+            "size": 6819,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.8/NATIVE-SOURCES.json"
           },
           {
-            "name": "Neon-Player-0.3.7-arm64-v8a.apk",
-            "size": 58789919,
-            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.7/Neon-Player-0.3.7-arm64-v8a.apk"
+            "name": "Neon-Player-0.3.8-arm64-v8a.apk",
+            "size": 58794499,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.8/Neon-Player-0.3.8-arm64-v8a.apk"
           },
           {
-            "name": "Neon-Player-0.3.7-armeabi-v7a.apk",
-            "size": 56638305,
-            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.7/Neon-Player-0.3.7-armeabi-v7a.apk"
+            "name": "Neon-Player-0.3.8-armeabi-v7a.apk",
+            "size": 56642881,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.8/Neon-Player-0.3.8-armeabi-v7a.apk"
           },
           {
-            "name": "Neon-Player-0.3.7-dependency-sources.tar",
+            "name": "Neon-Player-0.3.8-dependency-sources.tar",
             "size": 301434880,
-            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.7/Neon-Player-0.3.7-dependency-sources.tar"
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.8/Neon-Player-0.3.8-dependency-sources.tar"
           },
           {
-            "name": "Neon-Player-0.3.7-x86_64.apk",
-            "size": 60642220,
-            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.7/Neon-Player-0.3.7-x86_64.apk"
+            "name": "Neon-Player-0.3.8-x86_64.apk",
+            "size": 60646800,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.8/Neon-Player-0.3.8-x86_64.apk"
+          },
+          {
+            "name": "PUBLICATION-VALIDATION.md",
+            "size": 1597,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.8/PUBLICATION-VALIDATION.md"
+          },
+          {
+            "name": "README.md",
+            "size": 6493,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.8/README.md"
           },
           {
             "name": "SHA256SUMS.txt",
-            "size": 588,
-            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.7/SHA256SUMS.txt"
+            "size": 981,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.8/SHA256SUMS.txt"
+          },
+          {
+            "name": "SOURCE-NOTES.md",
+            "size": 2171,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.8/SOURCE-NOTES.md"
+          },
+          {
+            "name": "THIRD-PARTY.md",
+            "size": 7359,
+            "url": "https://github.com/jeronimo701/NeonPlayer-Android/releases/download/v0.3.8/THIRD-PARTY.md"
           }
         ]
       },
       "preview": null,
       "channels": [],
-      "updated": "2026-11-25T10:44:25Z"
+      "updated": "2026-11-27T16:43:34Z"
     },
     {
       "id": "mpv-neon",
@@ -496,46 +521,56 @@
       "url": "https://github.com/jeronimo701/OkdeskAndroid",
       "latestUrl": "https://github.com/jeronimo701/OkdeskAndroid/releases/latest",
       "latest": {
-        "tag": "v0.2.34",
-        "name": "Okdesk Mobile 0.2.34",
-        "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/tag/v0.2.34",
-        "date": "2026-10-22T05:49:27Z",
+        "tag": "v0.2.36",
+        "name": "OkdeskAndroid 0.2.36",
+        "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/tag/v0.2.36",
+        "date": "2026-11-27T16:53:07Z",
         "assets": [
           {
+            "name": "CHANGELOG.md",
+            "size": 1556,
+            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.36/CHANGELOG.md"
+          },
+          {
             "name": "LICENSE-SCOPE.md",
-            "size": 1112,
-            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.34/LICENSE-SCOPE.md"
+            "size": 336,
+            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.36/LICENSE-SCOPE.md"
           },
           {
             "name": "LICENSE.txt",
             "size": 10106,
-            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.34/LICENSE.txt"
+            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.36/LICENSE.txt"
           },
           {
-            "name": "OkdeskMobile-0.2.34-debug.apk",
-            "size": 3449414,
-            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.34/OkdeskMobile-0.2.34-debug.apk"
+            "name": "OkdeskMobile-0.2.36-debug.apk",
+            "size": 6898644,
+            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.36/OkdeskMobile-0.2.36-debug.apk"
           },
           {
-            "name": "PUBLISHING.ru.md",
-            "size": 3530,
-            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.34/PUBLISHING.ru.md"
+            "name": "PUBLICATION-VALIDATION.md",
+            "size": 738,
+            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.36/PUBLICATION-VALIDATION.md"
+          },
+          {
+            "name": "README.md",
+            "size": 5107,
+            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.36/README.md"
           },
           {
             "name": "SHA256SUMS.txt",
-            "size": 97,
-            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.34/SHA256SUMS.txt"
+            "size": 592,
+            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.36/SHA256SUMS.txt"
           },
           {
             "name": "THIRD-PARTY.md",
             "size": 1444,
-            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.34/THIRD-PARTY.md"
+            "url": "https://github.com/jeronimo701/OkdeskAndroid/releases/download/v0.2.36/THIRD-PARTY.md"
           }
         ]
       },
       "preview": null,
       "channels": [],
-      "updated": "2026-10-22T05:49:27Z"
+      "updated": "2026-11-27T16:53:07Z"
     },
     {
       "id": "OkdeskAssistant",
@@ -618,31 +653,31 @@
       "url": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title",
       "latestUrl": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title/releases/latest",
       "latest": {
-        "tag": "v1.7.66",
-        "name": "Okdesk 1.7.66 — возврат к списку после отправки",
-        "url": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title/releases/tag/v1.7.66",
-        "date": "2026-11-23T10:37:51Z",
+        "tag": "v1.7.68",
+        "name": "Okdesk 1.7.68 — возврат к списку из окна подтверждения",
+        "url": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title/releases/tag/v1.7.68",
+        "date": "2026-11-26T11:04:52Z",
         "assets": [
           {
             "name": "Okdesk_field_filler_equipment_title.meta.js",
-            "size": 1185,
-            "url": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title/releases/download/v1.7.66/Okdesk_field_filler_equipment_title.meta.js"
+            "size": 1231,
+            "url": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title/releases/download/v1.7.68/Okdesk_field_filler_equipment_title.meta.js"
           },
           {
             "name": "Okdesk_field_filler_equipment_title.user.js",
-            "size": 327655,
-            "url": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title/releases/download/v1.7.66/Okdesk_field_filler_equipment_title.user.js"
+            "size": 329667,
+            "url": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title/releases/download/v1.7.68/Okdesk_field_filler_equipment_title.user.js"
           },
           {
             "name": "SHA256SUMS.txt",
             "size": 222,
-            "url": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title/releases/download/v1.7.66/SHA256SUMS.txt"
+            "url": "https://github.com/jeronimo701/Okdesk-field-filler-equipment-title/releases/download/v1.7.68/SHA256SUMS.txt"
           }
         ]
       },
       "preview": null,
       "channels": [],
-      "updated": "2026-11-23T10:37:51Z"
+      "updated": "2026-11-26T11:04:52Z"
     },
     {
       "id": "Poscenter-file-catalog-plus",
@@ -1080,6 +1115,330 @@
       "preview": null,
       "channels": [],
       "updated": "2026-10-28T16:37:17Z"
+    },
+    {
+      "id": "NeonTorr",
+      "title": "NeonTorr",
+      "description": "Отдельный Android-плеер на libmpv со встроенным TorrServer MatriX.151: поиск, библиотека и запуск просмотра из одного приложения.",
+      "platforms": [
+        "android"
+      ],
+      "collections": [
+        "android"
+      ],
+      "category": "Медиа",
+      "icon": "play",
+      "color": "orange",
+      "order": 20,
+      "note": "Встроенный TorrServer · Android 9+ для этих сборок",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/NeonTorr",
+      "latestUrl": "https://github.com/jeronimo701/NeonTorr/releases/latest",
+      "latest": {
+        "tag": "v0.7.2",
+        "name": "NeonTorr 0.7.2",
+        "url": "https://github.com/jeronimo701/NeonTorr/releases/tag/v0.7.2",
+        "date": "2026-11-27T16:55:17Z",
+        "assets": [
+          {
+            "name": "CHANGELOG.md",
+            "size": 2158,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/CHANGELOG.md"
+          },
+          {
+            "name": "LICENSE",
+            "size": 35147,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/LICENSE"
+          },
+          {
+            "name": "NATIVE-SOURCES.json",
+            "size": 6650,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/NATIVE-SOURCES.json"
+          },
+          {
+            "name": "NeonTorr-0.7.2-arm64-v8a.apk",
+            "size": 85511350,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/NeonTorr-0.7.2-arm64-v8a.apk"
+          },
+          {
+            "name": "NeonTorr-0.7.2-armeabi-v7a.apk",
+            "size": 84129454,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/NeonTorr-0.7.2-armeabi-v7a.apk"
+          },
+          {
+            "name": "NeonTorr-0.7.2-dependency-sources.tar",
+            "size": 301434880,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/NeonTorr-0.7.2-dependency-sources.tar"
+          },
+          {
+            "name": "NeonTorr-0.7.2-x86_64.apk",
+            "size": 88586832,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/NeonTorr-0.7.2-x86_64.apk"
+          },
+          {
+            "name": "PUBLICATION-VALIDATION.md",
+            "size": 1183,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/PUBLICATION-VALIDATION.md"
+          },
+          {
+            "name": "README.md",
+            "size": 6997,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/README.md"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 969,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/SHA256SUMS.txt"
+          },
+          {
+            "name": "SOURCE-NOTES.md",
+            "size": 2738,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/SOURCE-NOTES.md"
+          },
+          {
+            "name": "THIRD-PARTY.md",
+            "size": 7718,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/THIRD-PARTY.md"
+          }
+        ]
+      },
+      "preview": null,
+      "channels": [],
+      "updated": "2026-11-27T16:55:17Z"
+    },
+    {
+      "id": "JacRed-Android",
+      "title": "JacRed Android",
+      "description": "Android-клиент для JacRed и jac.red: онлайн-поиск раздач, magnet и .torrent, интерфейс телефона и Android TV.",
+      "platforms": [
+        "android"
+      ],
+      "collections": [
+        "android"
+      ],
+      "category": "Поиск и медиа",
+      "icon": "magnet",
+      "color": "purple",
+      "order": 21,
+      "note": "Android-клиент jac.red · передача в плеер",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/JacRed-Android",
+      "latestUrl": "https://github.com/jeronimo701/JacRed-Android/releases/latest",
+      "latest": {
+        "tag": "v0.2.0",
+        "name": "JacRed-Android 0.2.0",
+        "url": "https://github.com/jeronimo701/JacRed-Android/releases/tag/v0.2.0",
+        "date": "2026-11-27T16:46:53Z",
+        "assets": [
+          {
+            "name": "CHANGELOG.md",
+            "size": 4455,
+            "url": "https://github.com/jeronimo701/JacRed-Android/releases/download/v0.2.0/CHANGELOG.md"
+          },
+          {
+            "name": "JacRed-Android-0.2.0.apk",
+            "size": 5321237,
+            "url": "https://github.com/jeronimo701/JacRed-Android/releases/download/v0.2.0/JacRed-Android-0.2.0.apk"
+          },
+          {
+            "name": "LICENSE-SCOPE.md",
+            "size": 333,
+            "url": "https://github.com/jeronimo701/JacRed-Android/releases/download/v0.2.0/LICENSE-SCOPE.md"
+          },
+          {
+            "name": "LICENSE.txt",
+            "size": 10106,
+            "url": "https://github.com/jeronimo701/JacRed-Android/releases/download/v0.2.0/LICENSE.txt"
+          },
+          {
+            "name": "PUBLICATION-VALIDATION.md",
+            "size": 1226,
+            "url": "https://github.com/jeronimo701/JacRed-Android/releases/download/v0.2.0/PUBLICATION-VALIDATION.md"
+          },
+          {
+            "name": "README.md",
+            "size": 5084,
+            "url": "https://github.com/jeronimo701/JacRed-Android/releases/download/v0.2.0/README.md"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 587,
+            "url": "https://github.com/jeronimo701/JacRed-Android/releases/download/v0.2.0/SHA256SUMS.txt"
+          },
+          {
+            "name": "THIRD-PARTY.md",
+            "size": 2332,
+            "url": "https://github.com/jeronimo701/JacRed-Android/releases/download/v0.2.0/THIRD-PARTY.md"
+          }
+        ]
+      },
+      "preview": null,
+      "channels": [],
+      "updated": "2026-11-27T16:46:53Z"
+    },
+    {
+      "id": "Adaptive-TV-Launcher",
+      "title": "Adaptive TV Launcher",
+      "description": "Настраиваемый лаунчер для Android TV / Google TV: категории приложений, четыре компоновки, оформление и локальное веб-управление.",
+      "platforms": [
+        "android"
+      ],
+      "collections": [
+        "android"
+      ],
+      "category": "Android TV",
+      "icon": "tv",
+      "color": "blue",
+      "order": 22,
+      "note": "",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/Adaptive-TV-Launcher",
+      "latestUrl": "https://github.com/jeronimo701/Adaptive-TV-Launcher/releases/latest",
+      "latest": {
+        "tag": "v0.6.8",
+        "name": "Adaptive-TV-Launcher 0.6.8",
+        "url": "https://github.com/jeronimo701/Adaptive-TV-Launcher/releases/tag/v0.6.8",
+        "date": "2026-11-27T16:55:49Z",
+        "assets": [
+          {
+            "name": "Adaptive-TV-Launcher-0.6.8-debug.apk",
+            "size": 1880850,
+            "url": "https://github.com/jeronimo701/Adaptive-TV-Launcher/releases/download/v0.6.8/Adaptive-TV-Launcher-0.6.8-debug.apk"
+          },
+          {
+            "name": "CHANGELOG.md",
+            "size": 1863,
+            "url": "https://github.com/jeronimo701/Adaptive-TV-Launcher/releases/download/v0.6.8/CHANGELOG.md"
+          },
+          {
+            "name": "LICENSE-SCOPE.md",
+            "size": 333,
+            "url": "https://github.com/jeronimo701/Adaptive-TV-Launcher/releases/download/v0.6.8/LICENSE-SCOPE.md"
+          },
+          {
+            "name": "LICENSE.txt",
+            "size": 10106,
+            "url": "https://github.com/jeronimo701/Adaptive-TV-Launcher/releases/download/v0.6.8/LICENSE.txt"
+          },
+          {
+            "name": "PUBLICATION-VALIDATION.md",
+            "size": 739,
+            "url": "https://github.com/jeronimo701/Adaptive-TV-Launcher/releases/download/v0.6.8/PUBLICATION-VALIDATION.md"
+          },
+          {
+            "name": "README.md",
+            "size": 4939,
+            "url": "https://github.com/jeronimo701/Adaptive-TV-Launcher/releases/download/v0.6.8/README.md"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 599,
+            "url": "https://github.com/jeronimo701/Adaptive-TV-Launcher/releases/download/v0.6.8/SHA256SUMS.txt"
+          },
+          {
+            "name": "THIRD-PARTY.md",
+            "size": 762,
+            "url": "https://github.com/jeronimo701/Adaptive-TV-Launcher/releases/download/v0.6.8/THIRD-PARTY.md"
+          }
+        ]
+      },
+      "preview": null,
+      "channels": [],
+      "updated": "2026-11-27T16:55:49Z"
+    },
+    {
+      "id": "SpeechBlocker",
+      "title": "Speech Blocker",
+      "description": "Офлайн-микшер шумов для Android: подберите фон, который уменьшает разборчивость окружающих разговоров в ваших наушниках.",
+      "platforms": [
+        "android"
+      ],
+      "collections": [
+        "android"
+      ],
+      "category": "Звук и концентрация",
+      "icon": "wave",
+      "color": "green",
+      "order": 23,
+      "note": "Офлайн · без микрофона",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/SpeechBlocker",
+      "latestUrl": "https://github.com/jeronimo701/SpeechBlocker/releases/latest",
+      "latest": {
+        "tag": "v1.2.0",
+        "name": "SpeechBlocker 1.2.0",
+        "url": "https://github.com/jeronimo701/SpeechBlocker/releases/tag/v1.2.0",
+        "date": "2026-11-27T16:56:27Z",
+        "assets": [
+          {
+            "name": "babble-dense-robot-1.2.0.wav",
+            "size": 1152044,
+            "url": "https://github.com/jeronimo701/SpeechBlocker/releases/download/v1.2.0/babble-dense-robot-1.2.0.wav"
+          },
+          {
+            "name": "babble-distant-robot-1.2.0.wav",
+            "size": 1152044,
+            "url": "https://github.com/jeronimo701/SpeechBlocker/releases/download/v1.2.0/babble-distant-robot-1.2.0.wav"
+          },
+          {
+            "name": "CHANGELOG.md",
+            "size": 1901,
+            "url": "https://github.com/jeronimo701/SpeechBlocker/releases/download/v1.2.0/CHANGELOG.md"
+          },
+          {
+            "name": "LICENSE-SCOPE.md",
+            "size": 333,
+            "url": "https://github.com/jeronimo701/SpeechBlocker/releases/download/v1.2.0/LICENSE-SCOPE.md"
+          },
+          {
+            "name": "LICENSE.txt",
+            "size": 10106,
+            "url": "https://github.com/jeronimo701/SpeechBlocker/releases/download/v1.2.0/LICENSE.txt"
+          },
+          {
+            "name": "murmur-dense-1.2.0.wav",
+            "size": 1152044,
+            "url": "https://github.com/jeronimo701/SpeechBlocker/releases/download/v1.2.0/murmur-dense-1.2.0.wav"
+          },
+          {
+            "name": "murmur-distant-1.2.0.wav",
+            "size": 1152044,
+            "url": "https://github.com/jeronimo701/SpeechBlocker/releases/download/v1.2.0/murmur-distant-1.2.0.wav"
+          },
+          {
+            "name": "PUBLICATION-VALIDATION.md",
+            "size": 737,
+            "url": "https://github.com/jeronimo701/SpeechBlocker/releases/download/v1.2.0/PUBLICATION-VALIDATION.md"
+          },
+          {
+            "name": "README.md",
+            "size": 6374,
+            "url": "https://github.com/jeronimo701/SpeechBlocker/releases/download/v1.2.0/README.md"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 968,
+            "url": "https://github.com/jeronimo701/SpeechBlocker/releases/download/v1.2.0/SHA256SUMS.txt"
+          },
+          {
+            "name": "SpeechBlocker-1.2.0-debug.apk",
+            "size": 12230698,
+            "url": "https://github.com/jeronimo701/SpeechBlocker/releases/download/v1.2.0/SpeechBlocker-1.2.0-debug.apk"
+          },
+          {
+            "name": "THIRD-PARTY.md",
+            "size": 471,
+            "url": "https://github.com/jeronimo701/SpeechBlocker/releases/download/v1.2.0/THIRD-PARTY.md"
+          }
+        ]
+      },
+      "preview": null,
+      "channels": [],
+      "updated": "2026-11-27T16:56:27Z"
     }
   ]
 }

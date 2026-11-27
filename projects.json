@@ -18,7 +18,7 @@
     "color": "orange",
     "category": "Медиа",
     "order": 1,
-    "note": "Full на mpv + финальная Lite 0.6.0"
+    "note": "Full на mpv · Lite 0.6.0 завершена · Full APK: Android 9+"
   },
   "KomandDok": {
     "title": "КомандДок",
@@ -196,5 +196,48 @@
     "color": "blue",
     "category": "Утилиты",
     "order": 19
+  },
+  "NeonTorr": {
+    "title": "NeonTorr",
+    "platforms": [
+      "android"
+    ],
+    "icon": "play",
+    "color": "orange",
+    "category": "Медиа",
+    "order": 20,
+    "note": "Встроенный TorrServer · Android 9+ для этих сборок"
+  },
+  "JacRed-Android": {
+    "title": "JacRed Android",
+    "platforms": [
+      "android"
+    ],
+    "icon": "magnet",
+    "color": "purple",
+    "category": "Поиск и медиа",
+    "order": 21,
+    "note": "Android-клиент jac.red · передача в плеер"
+  },
+  "Adaptive-TV-Launcher": {
+    "title": "Adaptive TV Launcher",
+    "platforms": [
+      "android"
+    ],
+    "icon": "tv",
+    "color": "blue",
+    "category": "Android TV",
+    "order": 22
+  },
+  "SpeechBlocker": {
+    "title": "Speech Blocker",
+    "platforms": [
+      "android"
+    ],
+    "icon": "wave",
+    "color": "green",
+    "category": "Звук и концентрация",
+    "order": 23,
+    "note": "Офлайн · без микрофона"
   }
 }
