@@ -1,6 +1,6 @@
 {
   "owner": "jeronimo701",
-  "generatedAt": "2026-11-27T17:02:55.866794+00:00",
+  "generatedAt": "2026-11-27T21:14:41.414888+00:00",
   "projects": [
     {
       "id": "NeonPlayer-Android",
@@ -1136,76 +1136,76 @@
       "url": "https://github.com/jeronimo701/NeonTorr",
       "latestUrl": "https://github.com/jeronimo701/NeonTorr/releases/latest",
       "latest": {
-        "tag": "v0.7.2",
-        "name": "NeonTorr 0.7.2",
-        "url": "https://github.com/jeronimo701/NeonTorr/releases/tag/v0.7.2",
-        "date": "2026-11-27T16:55:17Z",
+        "tag": "v0.7.3",
+        "name": "NeonTorr 0.7.3",
+        "url": "https://github.com/jeronimo701/NeonTorr/releases/tag/v0.7.3",
+        "date": "2026-11-27T21:14:18Z",
         "assets": [
           {
             "name": "CHANGELOG.md",
-            "size": 2158,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/CHANGELOG.md"
+            "size": 2712,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/CHANGELOG.md"
           },
           {
             "name": "LICENSE",
             "size": 35147,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/LICENSE"
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/LICENSE"
           },
           {
             "name": "NATIVE-SOURCES.json",
             "size": 6650,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/NATIVE-SOURCES.json"
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/NATIVE-SOURCES.json"
           },
           {
-            "name": "NeonTorr-0.7.2-arm64-v8a.apk",
-            "size": 85511350,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/NeonTorr-0.7.2-arm64-v8a.apk"
+            "name": "NeonTorr-0.7.3-arm64-v8a.apk",
+            "size": 85101294,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/NeonTorr-0.7.3-arm64-v8a.apk"
           },
           {
-            "name": "NeonTorr-0.7.2-armeabi-v7a.apk",
-            "size": 84129454,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/NeonTorr-0.7.2-armeabi-v7a.apk"
+            "name": "NeonTorr-0.7.3-armeabi-v7a.apk",
+            "size": 83719398,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/NeonTorr-0.7.3-armeabi-v7a.apk"
           },
           {
-            "name": "NeonTorr-0.7.2-dependency-sources.tar",
+            "name": "NeonTorr-0.7.3-dependency-sources.tar",
             "size": 301434880,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/NeonTorr-0.7.2-dependency-sources.tar"
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/NeonTorr-0.7.3-dependency-sources.tar"
           },
           {
-            "name": "NeonTorr-0.7.2-x86_64.apk",
-            "size": 88586832,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/NeonTorr-0.7.2-x86_64.apk"
+            "name": "NeonTorr-0.7.3-x86_64.apk",
+            "size": 88176776,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/NeonTorr-0.7.3-x86_64.apk"
           },
           {
             "name": "PUBLICATION-VALIDATION.md",
-            "size": 1183,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/PUBLICATION-VALIDATION.md"
+            "size": 1426,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/PUBLICATION-VALIDATION.md"
           },
           {
             "name": "README.md",
-            "size": 6997,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/README.md"
+            "size": 6284,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/README.md"
           },
           {
             "name": "SHA256SUMS.txt",
             "size": 969,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/SHA256SUMS.txt"
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/SHA256SUMS.txt"
           },
           {
             "name": "SOURCE-NOTES.md",
             "size": 2738,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/SOURCE-NOTES.md"
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/SOURCE-NOTES.md"
           },
           {
             "name": "THIRD-PARTY.md",
             "size": 7718,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.2/THIRD-PARTY.md"
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/THIRD-PARTY.md"
           }
         ]
       },
       "preview": null,
       "channels": [],
-      "updated": "2026-11-27T16:55:17Z"
+      "updated": "2026-11-27T21:14:18Z"
     },
     {
       "id": "JacRed-Android",
@@ -1439,6 +1439,77 @@
       "preview": null,
       "channels": [],
       "updated": "2026-11-27T16:56:27Z"
+    },
+    {
+      "id": "APK-Catalog",
+      "title": "APK Каталог",
+      "description": "Android-утилита для JSON-каталогов APK: поиск, разделы, массовый выбор и фоновая загрузка файлов в выбранную папку.",
+      "platforms": [
+        "android"
+      ],
+      "collections": [
+        "android"
+      ],
+      "category": "Утилиты Android",
+      "icon": "folder",
+      "color": "green",
+      "order": 24,
+      "note": "JSON-каталоги · выбор и фоновая загрузка APK",
+      "fork": false,
+      "archived": false,
+      "url": "https://github.com/jeronimo701/APK-Catalog",
+      "latestUrl": "https://github.com/jeronimo701/APK-Catalog/releases/latest",
+      "latest": {
+        "tag": "v1.2",
+        "name": "APK-Catalog 1.2",
+        "url": "https://github.com/jeronimo701/APK-Catalog/releases/tag/v1.2",
+        "date": "2026-11-27T21:10:53Z",
+        "assets": [
+          {
+            "name": "APK-Catalog-1.2.apk",
+            "size": 105101,
+            "url": "https://github.com/jeronimo701/APK-Catalog/releases/download/v1.2/APK-Catalog-1.2.apk"
+          },
+          {
+            "name": "CHANGELOG.md",
+            "size": 1085,
+            "url": "https://github.com/jeronimo701/APK-Catalog/releases/download/v1.2/CHANGELOG.md"
+          },
+          {
+            "name": "LICENSE-SCOPE.md",
+            "size": 336,
+            "url": "https://github.com/jeronimo701/APK-Catalog/releases/download/v1.2/LICENSE-SCOPE.md"
+          },
+          {
+            "name": "LICENSE.txt",
+            "size": 10218,
+            "url": "https://github.com/jeronimo701/APK-Catalog/releases/download/v1.2/LICENSE.txt"
+          },
+          {
+            "name": "PUBLICATION-VALIDATION.md",
+            "size": 694,
+            "url": "https://github.com/jeronimo701/APK-Catalog/releases/download/v1.2/PUBLICATION-VALIDATION.md"
+          },
+          {
+            "name": "README.md",
+            "size": 7440,
+            "url": "https://github.com/jeronimo701/APK-Catalog/releases/download/v1.2/README.md"
+          },
+          {
+            "name": "SHA256SUMS.txt",
+            "size": 582,
+            "url": "https://github.com/jeronimo701/APK-Catalog/releases/download/v1.2/SHA256SUMS.txt"
+          },
+          {
+            "name": "THIRD-PARTY.md",
+            "size": 1132,
+            "url": "https://github.com/jeronimo701/APK-Catalog/releases/download/v1.2/THIRD-PARTY.md"
+          }
+        ]
+      },
+      "preview": null,
+      "channels": [],
+      "updated": "2026-11-27T21:10:53Z"
     }
   ]
 }

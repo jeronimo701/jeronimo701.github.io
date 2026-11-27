@@ -239,5 +239,16 @@
     "category": "Звук и концентрация",
     "order": 23,
     "note": "Офлайн · без микрофона"
+  },
+  "APK-Catalog": {
+    "title": "APK Каталог",
+    "platforms": [
+      "android"
+    ],
+    "icon": "folder",
+    "color": "green",
+    "category": "Утилиты Android",
+    "order": 24,
+    "note": "JSON-каталоги · выбор и фоновая загрузка APK"
   }
 }
