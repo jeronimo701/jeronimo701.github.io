@@ -1,6 +1,6 @@
 {
   "owner": "jeronimo701",
-  "generatedAt": "2026-11-27T21:14:41.414888+00:00",
+  "generatedAt": "2026-11-27T21:36:16.128690+00:00",
   "projects": [
     {
       "id": "NeonPlayer-Android",
@@ -886,7 +886,7 @@
         ]
       },
       "channels": [],
-      "updated": "2026-10-28T16:37:22Z"
+      "updated": "2026-11-27T21:27:30Z"
     },
     {
       "id": "ultra-bootscreen-manager",
@@ -1114,7 +1114,7 @@
       "latest": null,
       "preview": null,
       "channels": [],
-      "updated": "2026-10-28T16:37:17Z"
+      "updated": "2026-11-27T21:28:01Z"
     },
     {
       "id": "NeonTorr",
@@ -1136,76 +1136,76 @@
       "url": "https://github.com/jeronimo701/NeonTorr",
       "latestUrl": "https://github.com/jeronimo701/NeonTorr/releases/latest",
       "latest": {
-        "tag": "v0.7.3",
-        "name": "NeonTorr 0.7.3",
-        "url": "https://github.com/jeronimo701/NeonTorr/releases/tag/v0.7.3",
-        "date": "2026-11-27T21:14:18Z",
+        "tag": "v0.7.4",
+        "name": "NeonTorr 0.7.4",
+        "url": "https://github.com/jeronimo701/NeonTorr/releases/tag/v0.7.4",
+        "date": "2026-11-27T21:30:59Z",
         "assets": [
           {
             "name": "CHANGELOG.md",
-            "size": 2712,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/CHANGELOG.md"
+            "size": 3322,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.4/CHANGELOG.md"
           },
           {
             "name": "LICENSE",
             "size": 35147,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/LICENSE"
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.4/LICENSE"
           },
           {
             "name": "NATIVE-SOURCES.json",
             "size": 6650,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/NATIVE-SOURCES.json"
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.4/NATIVE-SOURCES.json"
           },
           {
-            "name": "NeonTorr-0.7.3-arm64-v8a.apk",
-            "size": 85101294,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/NeonTorr-0.7.3-arm64-v8a.apk"
+            "name": "NeonTorr-0.7.4-arm64-v8a.apk",
+            "size": 85106376,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.4/NeonTorr-0.7.4-arm64-v8a.apk"
           },
           {
-            "name": "NeonTorr-0.7.3-armeabi-v7a.apk",
-            "size": 83719398,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/NeonTorr-0.7.3-armeabi-v7a.apk"
+            "name": "NeonTorr-0.7.4-armeabi-v7a.apk",
+            "size": 83724480,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.4/NeonTorr-0.7.4-armeabi-v7a.apk"
           },
           {
-            "name": "NeonTorr-0.7.3-dependency-sources.tar",
+            "name": "NeonTorr-0.7.4-dependency-sources.tar",
             "size": 301434880,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/NeonTorr-0.7.3-dependency-sources.tar"
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.4/NeonTorr-0.7.4-dependency-sources.tar"
           },
           {
-            "name": "NeonTorr-0.7.3-x86_64.apk",
-            "size": 88176776,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/NeonTorr-0.7.3-x86_64.apk"
+            "name": "NeonTorr-0.7.4-x86_64.apk",
+            "size": 88181858,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.4/NeonTorr-0.7.4-x86_64.apk"
           },
           {
             "name": "PUBLICATION-VALIDATION.md",
             "size": 1426,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/PUBLICATION-VALIDATION.md"
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.4/PUBLICATION-VALIDATION.md"
           },
           {
             "name": "README.md",
-            "size": 6284,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/README.md"
+            "size": 6340,
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.4/README.md"
           },
           {
             "name": "SHA256SUMS.txt",
             "size": 969,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/SHA256SUMS.txt"
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.4/SHA256SUMS.txt"
           },
           {
             "name": "SOURCE-NOTES.md",
             "size": 2738,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/SOURCE-NOTES.md"
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.4/SOURCE-NOTES.md"
           },
           {
             "name": "THIRD-PARTY.md",
             "size": 7718,
-            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.3/THIRD-PARTY.md"
+            "url": "https://github.com/jeronimo701/NeonTorr/releases/download/v0.7.4/THIRD-PARTY.md"
           }
         ]
       },
       "preview": null,
       "channels": [],
-      "updated": "2026-11-27T21:14:18Z"
+      "updated": "2026-11-27T21:30:59Z"
     },
     {
       "id": "JacRed-Android",
